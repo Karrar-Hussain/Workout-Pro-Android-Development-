@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="none" >
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/body_parts"
+    tools:context=".view.MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Shoulder"
+        android:id="@+id/viewShoulder"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textIsSelectable="true"
+        android:gravity="center"
+        android:background="#d005718c"
+        android:clickable="true"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Chest"
+        android:id="@+id/viewChest"
+        android:layout_marginTop="15dp"
+        android:textIsSelectable="true"
+        android:gravity="center"
+        android:background="#d005718c"
+        android:clickable="true"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/viewShoulder"
+        android:layout_alignLeft="@+id/viewShoulder"
+        android:layout_alignStart="@+id/viewShoulder"
+        android:layout_alignRight="@+id/viewShoulder"
+        android:layout_alignEnd="@+id/viewShoulder" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Tricep"
+        android:id="@+id/viewTricep"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/viewChest"
+        android:layout_alignLeft="@+id/viewChest"
+        android:layout_alignStart="@+id/viewChest"
+        android:layout_alignRight="@+id/viewShoulder"
+        android:layout_alignEnd="@+id/viewShoulder"
+        style="@style/Animation.Design.BottomSheetDialog"
+        android:shadowColor="#d0028d9c"
+        android:textIsSelectable="true"
+        android:gravity="center"
+        android:background="#d005718c"
+        android:clickable="true"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Bicep"
+        android:id="@+id/viewBicep"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/viewTricep"
+        android:layout_alignLeft="@+id/viewTricep"
+        android:layout_alignStart="@+id/viewTricep"
+        android:layout_alignRight="@+id/viewTricep"
+        android:layout_alignEnd="@+id/viewTricep"
+        android:textIsSelectable="true"
+        android:gravity="center"
+        android:background="#d005718c"
+        android:clickable="true"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Forearm"
+        android:id="@+id/viewForearem"
+        android:textIsSelectable="true"
+        android:gravity="center"
+        android:background="#d005718c"
+        android:clickable="true"
+        android:textColor="#ffffff"
+        android:layout_above="@+id/viewAbs"
+        android:layout_alignLeft="@+id/viewBicep"
+        android:layout_alignStart="@+id/viewBicep"
+        android:layout_marginBottom="28dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Abs"
+        android:id="@+id/viewAbs"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/viewForearem"
+        android:layout_alignStart="@+id/viewForearem"
+        android:layout_alignRight="@+id/viewForearem"
+        android:layout_alignEnd="@+id/viewForearem"
+        android:textIsSelectable="true"
+        android:gravity="center"
+        android:background="#d005718c"
+        android:clickable="true"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Legs"
+        android:id="@+id/viewLegs"
+        android:layout_marginTop="36dp"
+        android:layout_below="@+id/viewAbs"
+        android:layout_alignLeft="@+id/viewAbs"
+        android:layout_alignStart="@+id/viewAbs"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textIsSelectable="true"
+        android:gravity="center"
+        android:background="#d005718c"
+        android:clickable="true"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Calve"
+        android:id="@+id/viewCalve"
+        android:layout_marginTop="55dp"
+        android:layout_below="@+id/viewLegs"
+        android:layout_alignLeft="@+id/viewLegs"
+        android:layout_alignStart="@+id/viewLegs"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textIsSelectable="false"
+        android:gravity="center"
+        android:background="#d005718c"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:layout_width="55dp"
+        android:layout_height="25dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Back"
+        android:id="@+id/viewBack"
+        android:textIsSelectable="true"
+        android:gravity="center"
+        android:background="#d005718c"
+        android:textColor="#ffffff"
+        android:layout_alignBaseline="@+id/viewChest"
+        android:layout_alignBottom="@+id/viewChest"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
+        </LinearLayout>
+    </ScrollView>

@@ -1,0 +1,298 @@
+
+Bench Press
+
+Muscles Targeted
+Main Muscle Group:	 Chest
+Secondary Muscles:	Triceps
+
+Textual Instructions
+Starting Position:	Lie down on your back on the bench and grasp the barbell with both hands in a medium-grip position.
+Motion:	Push the barbell straight up until your elbows are close to being locked and lower it back slowly after a short pause.
+Tips/Caution:	Breathe out while pushing the bar and breathe in while lowering it back.
+ 
+300
+Bench Press Close grip
+Muscles Targeted
+Main Muscle Group:	 Chest
+Secondary Muscles:	Inner Chest
+
+Textual Instructions
+Starting Position:	Lie down on your back on the bench and grasp the barbell with both hands in a close-grip position.
+Motion:	Push the barbell straight up until your elbows are close to being locked and lower it back slowly after a short pause.
+Tips/Caution:	Breathe out while pushing the bar and breathe in while lowering it back.
+301
+Bench Press Wide grip
+
+Muscles Targeted
+Main Muscle Group:	 Chest
+Secondary Muscles:	Inner Chest
+
+Textual Instructions
+Starting Position:	Lie down on your back on the bench and grasp the barbell with both hands in a wide-grip position.
+Motion:	Push the barbell straight up until your elbows are close to being locked and lower it back slowly after a short pause.
+Tips/Caution:	Breathe out while pushing the bar and breathe in while lowering it back.
+302
+Bench Press (Gym Equipment)
+  
+Muscles Targeted
+Main Muscle Group:	 Chest
+Secondary Muscles:	Triceps
+
+Textual Instructions
+Starting Position:	Lie down on your back on the bench and grasp the handles with your hands.
+Motion:	Push the handle bars straight up until your elbows are close to being locked and lower them back slowly after a short pause.
+Tips/Caution:	Breathe out while pushing the bar and breathe in while lowering it back.
+303
+Bench Press - Incline
+  
+Muscles Targeted
+Main Muscle Group:	 Chest
+Secondary Muscles:	Triceps
+
+Textual Instructions
+Starting Position:	Lie down on your back on the incline bench and grasp the barbell with both hands in a medium-grip position.
+Motion:	Push the barbell straight up until your elbows are close to being locked and lower it back slowly after a short pause.
+Tips/Caution:	Breathe out while pushing the bar and breathe in while lowering it back.
+304
+Bench Press - Incline; Wide-Grip
+  
+Muscles Targeted
+Main Muscle Group:	 Chest
+Secondary Muscles:	Outer Chest
+
+Textual Instructions
+Starting Position:	Lie down on your back on the incline bench and grasp the barbell with both hands in a wide-grip position.
+Motion:	Push the barbell straight up until your elbows are close to being locked and lower it back slowly after a short pause.
+Tips/Caution:	Breathe out while pushing the bar and breathe in while lowering it back.
+305
+Bench Press - Decline
+  
+Muscles Targeted
+Main Muscle Group:	 Chest
+Secondary Muscles:	Triceps
+
+Textual Instructions
+Starting Position:	Lie down on your back on the decline bench and grasp the barbell with both hands in a close-grip position.
+Motion:	Push the barbell straight up until your elbows are close to being locked and lower it back slowly after a short pause.
+Tips/Caution:	Breathe out while pushing the bar and breathe in while lowering it back.
+306
+Bench Press - Decline; Wide-Grip
+  
+Muscles Targeted
+Main Muscle Group:	 Chest
+Secondary Muscles:	Outer Chest
+
+Textual Instructions
+Starting Position:	Lie down on your back on the decline bench and grasp the barbell with both hands in a wide-grip position.
+Motion:	Push the barbell straight up until your elbows are close to being locked and lower it back slowly after a short pause.
+Tips/Caution:	Breathe out while pushing the bar and breathe in while lowering it back.
+307
+Bench Press - Decline; to Neck
+  
+Muscles Targeted
+Main Muscle Group:	 Chest
+Secondary Muscles:	Triceps
+
+Textual Instructions
+Starting Position:	Lie down on your back on the decline bench and grasp the barbell with both hands in a medium-grip position.
+Motion:	Push the barbell straight up until your elbows are close to being locked and lower it back slowly after a short pause.
+Tips/Caution:	Breathe out while pushing the bar and breathe in while lowering it back.
+308
+Dumbbell Press
+  
+Muscles Targeted
+Main Muscle Group:	 Chest
+Secondary Muscles:	Triceps
+
+Textual Instructions
+Starting Position:	Lie down on your back on a bench and hold 2 dumbbells at chest level along your body.
+Motion:	Push the barbell straight up until your elbows are close to being locked and lower it back slowly after a short pause.
+Tips/Caution:	Breathe out while pushing the dumbbells and breathe in while lowering them back.
+309
+Dumbbell Press - Neutral Grip
+  
+Muscles Targeted
+Main Muscle Group:	 Chest
+Secondary Muscles:	Triceps
+
+Textual Instructions
+Starting Position:	Lie down on your back on a bench and hold 2 dumbbells at chest level along your body, palms facing each other.
+Motion:	Push the dumbbells straight up until your elbows are close to being locked and lower them back slowly after a short pause.
+Tips/Caution:	Breathe out while pushing the dumbbells and breathe in while lowering them back.
+310
+Dumbbell Press - from Pronation to Neutral Grip
+  
+Muscles Targeted
+Main Muscle Group:	 Chest
+Secondary Muscles:	Triceps
+
+Textual Instructions
+Starting Position:	Lie down on your back on a bench and hold 2 dumbbells at chest level along your body, palms facing your feet.
+Motion:	Push the dumbbells straight up until your elbows are close to being locked and lower them back slowly after a short pause.
+Tips/Caution:	Breathe out while pushing the dumbbells and breathe in while lowering them back.
+311
+Dumbbell Press - Incline
+  
+Muscles Targeted
+Main Muscle Group:	 Chest
+Secondary Muscles:	Triceps
+
+Textual Instructions
+Starting Position:	Lie down on your back on an incline bench and hold 2 dumbbells at chest level along your body, palms facing forward.
+Motion:	Push the dumbbells straight up until your elbows are close to being locked and lower them back slowly after a short pause.
+Tips/Caution:	Breathe out while pushing the dumbbells and breathe in while lowering them back.
+312
+Dumbbell Press - Incline; Neutral Grip
+  
+Muscles Targeted
+Main Muscle Group:	 Chest
+Secondary Muscles:	Triceps
+
+Textual Instructions
+Starting Position:	Lie down on your back on an incline bench and hold 2 dumbbells at chest level along your body, palms facing each other.
+Motion:	Push the dumbbells straight up until your elbows are close to being locked and lower them back slowly after a short pause.
+Tips/Caution:	Breathe out while pushing the dumbbells and breathe in while lowering them back.
+313
+Dumbbell Press - Decline
+  
+Muscles Targeted
+Main Muscle Group:	 Chest
+Secondary Muscles:	Triceps
+
+Textual Instructions
+Starting Position:	Lie down on your back on a decline bench and hold 2 dumbbells at chest level, palms facing forward.
+Motion:	Push the dumbbells straight up until your elbows are close to being locked and lower them back slowly after a short pause.
+Tips/Caution:	Breathe out while pushing the dumbbells and breathe in while lowering them back.
+314
+Chest Press (Gym Equipment) - Pronation Grip
+  
+Muscles Targeted
+Main Muscle Group:	 Chest
+Secondary Muscles:	Triceps
+
+Textual Instructions
+Starting Position:	Sit down on the bench and grab the handles with your hands, palms facing the floor.
+Motion:	Push the handles forward until your arms are close to being fully extended and slowly let them swing back after a short pause.
+Tips/Caution:	Breathe out while pushing forward and breathe in while letting the handlebars swing back.
+315
+Chest Press (Gym Equipment) - Neutral Grip
+  
+Muscles Targeted
+Main Muscle Group:	 Chest
+Secondary Muscles:	Triceps
+
+Textual Instructions
+Starting Position:	Sit down on the bench and grab the handles with your hands, palms facing each other.
+Motion:	Push the handles forward until your arms are close to being fully extended and slowly let them swing back after a short pause.
+Tips/Caution:	Breathe out while pushing forward and breathe in while letting the handlebars swing back.
+316
+Push Up
+  
+Muscles Targeted
+Main Muscle Group:	 Chest
+Secondary Muscles:	Triceps
+
+Textual Instructions
+Starting Position:	Lie down on the floor, body fully extended, hands in a medium grip position with only your hands and feet touching the floor.
+Motion:	Push yourself up by extending your arms and lower yourself back down after a short pause.
+Tips/Caution:	Breathe out while pushing yourself up and breathe in while lowering yourself down.
+317
+Push Up - on Knees
+  
+Muscles Targeted
+Main Muscle Group:	 Chest
+Secondary Muscles:	Triceps
+
+Textual Instructions
+Starting Position:	Lie down on the floor, body fully extended, hands in a medium grip position and only your hands and knees touching the floor.
+Motion:	Push yourself up by extending your arms and lower yourself back down after a short pause.
+Tips/Caution:	Breathe out while pushing yourself up and breathe in while lowering yourself down.
+318
+Chest Fly (Gym Equipment)
+  
+Muscles Targeted
+Main Muscle Group:	 Chest
+Secondary Muscles:	Outer Chest
+
+Textual Instructions
+Starting Position:	Sit down on the bench and position your arms against the arm pads, elbows at 90 degree angles.
+Motion:	Push your hands towards each other in front of your chest and let them go back after a short pause.
+Tips/Caution:	Keep your back straight throughout.
+319
+Chest Fly (Dumbbells)
+  
+Muscles Targeted
+Main Muscle Group:	 Chest
+Secondary Muscles:	Outer Chest
+
+Textual Instructions
+Starting Position:	Lie down on your back on the bench and grab one dumbbell with each hand at shoulder height, elbows just slightly arched.
+Motion:	Raise the dumbbells until they are side by side on top of you and slowly lower them back after a short pause.
+Tips/Caution:	Try to maintain the same angle in your elbows throughout.
+320
+Chest Fly (Dumbbells) - Incline
+  
+Muscles Targeted
+Main Muscle Group:	 Chest
+Secondary Muscles:	Outer Chest
+
+Textual Instructions
+Starting Position:	Lie down on your back on an incline bench and grab one dumbbell with each hand at shoulder height, elbows at 90 degree angles.
+Motion:	Raise the dumbbells until they are side by side on top of you and slowly lower them back after a short pause.
+Tips/Caution:	Try to maintain the same angle in your elbows throughout.
+321
+Chest Fly (Dumbbells) - Decline
+  
+Muscles Targeted
+Main Muscle Group:	 Chest
+Secondary Muscles:	Outer Chest
+
+Textual Instructions
+Starting Position:	Lie down on your back on a decline bench and hold 2 dumbbells at shoulders level, palms facing each other.
+Motion:	Raise the dumbbells until they are side by side on top of you and slowly lower them back after a short pause.
+Tips/Caution:	Try to maintain the same angle in your elbows throughout.
+322
+Chest Fly (High Pulley)
+  
+Muscles Targeted
+Main Muscle Group:	 Chest
+Secondary Muscles:	Outer Chest
+
+Textual Instructions
+Starting Position:	Stand up in front of the high pulley machine with your back facing it and grab both handles at shoulder height.
+Motion:	Pull the handles forward until your hands are in front of your abdomen and allow them to go back after a short pause.
+Tips/Caution:	Try to maintain the same angle in your elbows throughout.
+323
+Pullover (Dumbbell) - Straight-Arm
+  
+Muscles Targeted
+Main Muscle Group:	 Chest
+Secondary Muscles:	Triceps
+
+Textual Instructions
+Starting Position:	Lie down on your back on one end of the bench and hold 2 dumbbells at your head height, arms extended.
+Motion:	Raise the dumbbell up until your arms are perpendicular to the floor and slowly return to starting position.
+Tips/Caution:	Breathe out while raising the dumbbell and breathe in while returning to starting position.
+328
+Pullover (Dumbbell) - Straight-Arm; Across Bench
+  
+Muscles Targeted
+Main Muscle Group:	 Chest
+Secondary Muscles:	Triceps
+
+Textual Instructions
+Starting Position:	Lie down on your back across the bench and hold one dumbbell with both hands at your head height, arms extended.
+Motion:	Raise the dumbbell up until your arms are perpendicular to the floor and slowly return to starting position.
+Tips/Caution:	Breathe out while raising the dumbbell and breathe in while returning to starting position.
+329
+Pullover (Barbell) - Bent-Arm
+  
+Muscles Targeted
+Main Muscle Group:	 Chest
+Secondary Muscles:	Triceps
+
+Textual Instructions
+Starting Position:	Lie down on your back on one end of the bench and hold the barbell below your head height, elbows at 90 degree angles.
+Motion:	Raise the barbell and bring it on top of your chest while keeping the angles in your elbows still and slowly return to starting position.
+Tips/Caution:	Breathe out while raising the barbell and breathe in while lowering it back.
+330

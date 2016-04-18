@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    android:scrollbars="none" >
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@drawable/gymworkout_background"
+    >
+
+    <Spinner
+        android:id="@+id/ex_spinner"
+        android:layout_width="550dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:spinnerMode="dropdown"
+        android:background="@color/colorPrimary"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/webVGifs"
+        android:layout_alignEnd="@+id/webVGifs" />
+
+    <WebView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/webVGifs"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/ex_spinner"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Muscles Targeted"
+        android:id="@+id/viewMuscleTargeted"
+        android:layout_below="@+id/viewExName"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Tips And Instructions:"
+        android:id="@+id/viewD"
+        android:layout_marginTop="60dp"
+        android:layout_below="@+id/viewMuscleTargeted"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="StartPnt"
+        android:id="@+id/viewStartPnt"
+        android:layout_below="@+id/viewD"
+        android:layout_centerHorizontal="true" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Exercise"
+        android:id="@+id/viewExName"
+        android:layout_below="@+id/webVGifs"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Motion"
+        android:id="@+id/viewMotion"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/viewStartPnt"
+        android:layout_alignRight="@+id/ex_spinner"
+        android:layout_alignEnd="@+id/ex_spinner" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Precaution"
+        android:id="@+id/viewPrecaution"
+        android:layout_below="@+id/viewMotion"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="MainMuscle"
+        android:id="@+id/viewMainMuscle"
+        android:layout_below="@+id/viewMuscleTargeted"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="SecondaryMuscle"
+        android:id="@+id/viewSecondaryMuscle"
+        android:layout_below="@+id/viewMainMuscle"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:id="@+id/btnUpdate"
+        android:layout_below="@+id/viewPrecaution"
+        android:layout_alignRight="@+id/viewExName"
+        android:layout_alignEnd="@+id/viewExName"
+        android:layout_marginTop="46dp" />
+
+</RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
