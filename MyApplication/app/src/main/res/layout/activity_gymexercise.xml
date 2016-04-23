@@ -31,7 +31,7 @@
         android:layout_alignParentEnd="true"
         android:textIsSelectable="true"
         android:gravity="center"
-        android:background="#d005718c"
+        android:background="@color/colorPrimary"
         android:clickable="true"
         android:textColor="#ffffff"/>
 
@@ -44,7 +44,7 @@
         android:layout_marginTop="15dp"
         android:textIsSelectable="true"
         android:gravity="center"
-        android:background="#d005718c"
+        android:background="@color/colorPrimary"
         android:clickable="true"
         android:textColor="#ffffff"
         android:layout_below="@+id/viewShoulder"
@@ -69,7 +69,7 @@
         android:shadowColor="#d0028d9c"
         android:textIsSelectable="true"
         android:gravity="center"
-        android:background="#d005718c"
+        android:background="@color/colorPrimary"
         android:clickable="true"
         android:textColor="#ffffff"/>
 
@@ -87,7 +87,7 @@
         android:layout_alignEnd="@+id/viewTricep"
         android:textIsSelectable="true"
         android:gravity="center"
-        android:background="#d005718c"
+        android:background="@color/colorPrimary"
         android:clickable="true"
         android:textColor="#ffffff"/>
 
@@ -99,7 +99,7 @@
         android:id="@+id/viewForearem"
         android:textIsSelectable="true"
         android:gravity="center"
-        android:background="#d005718c"
+        android:background="@color/colorPrimary"
         android:clickable="true"
         android:textColor="#ffffff"
         android:layout_above="@+id/viewAbs"
@@ -120,7 +120,7 @@
         android:layout_alignEnd="@+id/viewForearem"
         android:textIsSelectable="true"
         android:gravity="center"
-        android:background="#d005718c"
+        android:background="@color/colorPrimary"
         android:clickable="true"
         android:textColor="#ffffff"/>
 
@@ -138,7 +138,7 @@
         android:layout_alignParentEnd="true"
         android:textIsSelectable="true"
         android:gravity="center"
-        android:background="#d005718c"
+        android:background="@color/colorPrimary"
         android:clickable="true"
         android:textColor="#ffffff"/>
 
@@ -156,18 +156,18 @@
         android:layout_alignParentEnd="true"
         android:textIsSelectable="false"
         android:gravity="center"
-        android:background="#d005718c"
+        android:background="@color/colorPrimary"
         android:textColor="#ffffff"/>
 
     <Button
-        android:layout_width="55dp"
-        android:layout_height="25dp"
+        android:layout_width="55sp"
+        android:layout_height="25sp"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="Back"
         android:id="@+id/viewBack"
         android:textIsSelectable="true"
         android:gravity="center"
-        android:background="#d005718c"
+        android:background="@color/colorPrimary"
         android:textColor="#ffffff"
         android:layout_alignBaseline="@+id/viewChest"
         android:layout_alignBottom="@+id/viewChest"

@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.unique.myapplication.view.NavigationActivity">
+    <item
+        android:id="@+id/home_layout"
+        android:title="Home" />
+    <item
+        android:id="@+id/bmi_layout"
+        android:showAsAction="withText|ifRoom"
+        android:title="Calculate BMI" />
+    <item
+        android:id="@+id/iw_layout"
+        android:orderInCategory="100"
+        android:title="Calculate Ideal Weight" />
+    <item
+        android:id="@+id/iw_layout2"
+        android:orderInCategory="100"
+        android:title="Title 4" />
+</menu>

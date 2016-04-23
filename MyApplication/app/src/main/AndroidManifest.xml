@@ -2,11 +2,20 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.unique.myapplication">
 
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="19" />
     <!-- To auto-complete the email text field in the login form with the user's emails -->
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="android.permission.READ_PROFILE" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature android:name="android.hardware.sensor.stepcounter" />
+    <uses-feature android:name="android.hardware.sensor.stepdetector" />
+
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -79,6 +88,28 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".view.NavigationActivity"
+            android:label="@string/title_activity_navigation">
+            <intent-filter>
+                <action android:name="com.example.unique.myapplication.NAVIGATIONACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.MainActivity2"
+            android:label="@string/title_activity_navigation">
+            <intent-filter>
+                <action android:name="com.example.unique.myapplication.MAINACTIVITY2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".view.StepCounterActivity" />
+        <activity android:name=".view.MusicPlayerActivity" />
+        <activity android:name=".view.AndroidMediaPlayer" />
+        <activity android:name=".view.Main"></activity>
     </application>
 
 </manifest>

@@ -27,7 +27,7 @@ public class Splash extends Activity{
                 finally
                 {
 
-                    Intent start=new Intent("com.example.unique.myapplication.MAINACTIVITY");
+                    Intent start=new Intent("com.example.unique.myapplication.NAVIGATIONACTIVITY");
                     //Intent start=new Intent("com.example.unique.myapplication.IDEALWEIGHTACTIVITY");
                     startActivity(start);
                 }

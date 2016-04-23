@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:fillViewport="true"
-    android:scrollbars="none" >
+    android:scrollbars="none"
+    android:background="@color/colorFifth">
 
     <LinearLayout android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -13,31 +14,23 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:weightSum="1"
-    android:background="@drawable/gymworkout_background"
     >
 
     <Spinner
         android:id="@+id/ex_spinner"
-        android:layout_width="550dp"
+        android:layout_width="400dp"
         android:layout_height="30dp"
-        android:layout_gravity="center_horizontal"
         android:spinnerMode="dropdown"
-        android:background="@color/colorPrimary"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="10dp"
-        android:gravity="center"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignRight="@+id/webVGifs"
-        android:layout_alignEnd="@+id/webVGifs" />
+        android:layout_marginRight="40dp"
+        android:background="@color/heading"
+        android:textStyle="italic"
+        android:layout_alignParentTop="true" />
 
     <WebView
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:id="@+id/webVGifs"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="10dp"
         android:layout_below="@+id/ex_spinner"
         android:layout_centerHorizontal="true" />
 
@@ -48,6 +41,7 @@
         android:text="Muscles Targeted"
         android:id="@+id/viewMuscleTargeted"
         android:layout_below="@+id/viewExName"
+        android:textColor="@color/heading"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
     <TextView
@@ -57,6 +51,7 @@
         android:text="Tips And Instructions:"
         android:id="@+id/viewD"
         android:layout_marginTop="60dp"
+        android:textColor="@color/heading"
         android:layout_below="@+id/viewMuscleTargeted"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
@@ -65,9 +60,13 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="StartPnt"
+        android:text="StartPoint"
+        android:textStyle="italic|bold"
+        android:textColor="@color/colorPrimaryDark"
         android:id="@+id/viewStartPnt"
         android:layout_below="@+id/viewD"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:layout_centerHorizontal="true" />
 
 
@@ -78,6 +77,7 @@
         android:text="Exercise"
         android:id="@+id/viewExName"
         android:layout_below="@+id/webVGifs"
+        android:textStyle="bold"
         android:layout_centerHorizontal="true" />
 
     <TextView
@@ -86,10 +86,14 @@
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="Motion"
         android:id="@+id/viewMotion"
+        android:textStyle="italic|bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/colorPrimaryDark"
         android:layout_marginTop="10dp"
         android:layout_below="@+id/viewStartPnt"
-        android:layout_alignRight="@+id/ex_spinner"
-        android:layout_alignEnd="@+id/ex_spinner" />
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
     <TextView
         android:layout_width="fill_parent"
@@ -97,8 +101,12 @@
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="Precaution"
         android:id="@+id/viewPrecaution"
+        android:textStyle="italic|bold"
+        android:textColor="@color/colorPrimaryDark"
         android:layout_below="@+id/viewMotion"
         android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:layout_alignParentStart="true"
         android:layout_marginTop="10dp" />
 
@@ -108,6 +116,11 @@
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="MainMuscle"
         android:id="@+id/viewMainMuscle"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="15sp"
         android:layout_below="@+id/viewMuscleTargeted"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
@@ -119,6 +132,11 @@
         android:text="SecondaryMuscle"
         android:id="@+id/viewSecondaryMuscle"
         android:layout_below="@+id/viewMainMuscle"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="15sp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginTop="10dp" />
@@ -129,9 +147,8 @@
         android:layout_height="wrap_content"
         android:text="Update"
         android:id="@+id/btnUpdate"
+        android:layout_alignRight="@id/ex_spinner"
         android:layout_below="@+id/viewPrecaution"
-        android:layout_alignRight="@+id/viewExName"
-        android:layout_alignEnd="@+id/viewExName"
         android:layout_marginTop="46dp" />
 
 </RelativeLayout>
