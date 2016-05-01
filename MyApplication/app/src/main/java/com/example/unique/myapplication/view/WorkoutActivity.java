@@ -3,11 +3,7 @@ package com.example.unique.myapplication.view;
 import android.app.Activity;
 import android.content.res.AssetManager;
 import android.database.Cursor;
-import android.database.sqlite.SQLiteDatabase;
-import android.database.sqlite.SQLiteOpenHelper;
-import android.net.Uri;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.webkit.WebView;
 import android.widget.AdapterView;
@@ -19,12 +15,10 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.unique.myapplication.R;
-import com.example.unique.myapplication.model.Database_Op;
-import com.google.android.gms.appindexing.Action;
+import com.example.unique.myapplication.model.Exercises_Tbl;
 import com.google.android.gms.appindexing.AppIndex;
 import com.google.android.gms.common.api.GoogleApiClient;
 
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
@@ -46,7 +40,7 @@ public class WorkoutActivity extends Activity implements AdapterView.OnItemSelec
     WebView webView2;
     Button btnUpdate;
     TextView viewExName,viewMainMuscle,viewSecMuscle,viewStartPnt,viewMotion,viewPrecaution;
-    Database_Op db;
+    Exercises_Tbl db;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -58,14 +52,14 @@ public class WorkoutActivity extends Activity implements AdapterView.OnItemSelec
         viewStartPnt=(TextView)findViewById(R.id.viewStartPnt);
         viewMotion=(TextView)findViewById(R.id.viewMotion);
         viewPrecaution=(TextView)findViewById(R.id.viewPrecaution);
-        btnUpdate=(Button)findViewById(R.id.btnUpdate);
+/*        btnUpdate=(Button)findViewById(R.id.btnUpdate);
         btnUpdate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 update();
             }
         });
-
+*/
         url="file:///android_asset/Gifs/200.gif";
         webView2.loadUrl(url);
         Spinner spinner = (Spinner) findViewById(R.id.ex_spinner);
@@ -76,7 +70,10 @@ public class WorkoutActivity extends Activity implements AdapterView.OnItemSelec
         value = b.getInt("key");
         //ex_list=getWorkoutInfo(value);
          /////////////////////////////////
-        db=new Database_Op(this);
+        //Diet_Tbl wia=new Diet_Tbl(this);
+        //wia.FetchFile();
+        /////////////////////////////////
+        db=new Exercises_Tbl(this);
         Cursor cr=db.retrieveData(value);
         //db.close();
         cr.moveToFirst();
@@ -94,21 +91,21 @@ public class WorkoutActivity extends Activity implements AdapterView.OnItemSelec
                 nameList.add(name);
                 name=String.valueOf(cr.getString(cr.getColumnIndex("Muscle_Type")));
                 mainMuscleList.add(name);
-                Log.d("One Pice Luffy===>>> Gum! Gum! Gum!:gif, name, musle, musle2, start, motion,tip ==>> ", "Hele" + gif + " " + name);
+                //Log.d("One Pice Luffy===>>> Gum! Gum! Gum!:gif, name, musle, musle2, start, motion,tip ==>> ", "Hele" + gif + " " + name);
                 name=String.valueOf(cr.getString(cr.getColumnIndex("Secondary_Type")));
                 secMuscleList.add(name);
-                Log.d("One Pice Luffy===>>> Gum! Gum! Gum!:gif, name, musle, musle2, start, motion,tip ==>> ", "Hele" + gif + " " + name);
+                //Log.d("One Pice Luffy===>>> Gum! Gum! Gum!:gif, name, musle, musle2, start, motion,tip ==>> ", "Hele" + gif + " " + name);
                 name=String.valueOf(cr.getString(cr.getColumnIndex("Tip")));
                 startPntList.add(name);
-                Log.d("One Pice Luffy===>>> Gum! Gum! Gum!:gif, name, musle, musle2, start, motion,tip ==>> ", "Hele" + gif + " " + name);
+                //Log.d("One Pice Luffy===>>> Gum! Gum! Gum!:gif, name, musle, musle2, start, motion,tip ==>> ", "Hele" + gif + " " + name);
                 name=String.valueOf(cr.getString(cr.getColumnIndex("Motion")));
                 motionList.add(name);
-                Log.d("One Pice Luffy===>>> Gum! Gum! Gum!:gif, name, musle, musle2, start, motion,tip ==>> ", "Hele" + gif + " " + name);
+                //Log.d("One Pice Luffy===>>> Gum! Gum! Gum!:gif, name, musle, musle2, start, motion,tip ==>> ", "Hele" + gif + " " + name);
                 name=String.valueOf(cr.getString(cr.getColumnIndex("Precaution")));
                 precautionList.add(name);
                 gif = gif + ".gif";
                 gifList.add(gif);
-                Log.d("One Pice Luffy===>>> Gum! Gum! Gum!:gif, name, musle, musle2, start, motion,tip ==>> ","Hele"+gif+" "+name);
+                //Log.d("One Pice Luffy===>>> Gum! Gum! Gum!:gif, name, musle, musle2, start, motion,tip ==>> ","Hele"+gif+" "+name);
             }
 
         ex_list = nameList;

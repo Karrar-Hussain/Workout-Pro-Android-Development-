@@ -5,23 +5,22 @@ import android.app.Activity;
 import android.app.ActionBar;
 import android.app.Fragment;
 import android.app.FragmentManager;
-import android.content.Context;
 import android.content.Intent;
-import android.os.Build;
+import android.content.res.AssetManager;
 import android.os.Bundle;
-import android.view.Gravity;
 import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.support.v4.widget.DrawerLayout;
-import android.widget.ArrayAdapter;
-import android.widget.Button;
-import android.widget.ImageButton;
-import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.unique.myapplication.R;
+import com.example.unique.myapplication.model.Diet_Tbl;
+import com.example.unique.myapplication.model.Exercises_Tbl;
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 public class NavigationActivity extends Activity
         implements NavigationDrawerFragment.NavigationDrawerCallbacks {
@@ -35,11 +34,11 @@ public class NavigationActivity extends Activity
      * Used to store the last screen title. For use in {@link #restoreActionBar()}.
      */
     private CharSequence mTitle;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_navigation);
-
         mNavigationDrawerFragment = (NavigationDrawerFragment)
                 getFragmentManager().findFragmentById(R.id.navigation_drawer);
         mTitle = getTitle();
@@ -48,8 +47,6 @@ public class NavigationActivity extends Activity
         mNavigationDrawerFragment.setUp(
                 R.id.navigation_drawer,
                 (DrawerLayout) findViewById(R.id.drawer_layout));
-
-
     }
 
     @Override
@@ -59,14 +56,15 @@ public class NavigationActivity extends Activity
         fragmentManager.beginTransaction()
                 .replace(R.id.container, new Menu3_Fragment())
                 .commit();
-        */FragmentManager fm=getFragmentManager();
+        */
+        FragmentManager fm=getFragmentManager();
         if (position == 0) {
-           //startActivity(new Intent(getApplication(), MainActivity.class));
-            fm.beginTransaction().replace(R.id.container,new Menu3_Fragment()).commit();
+           //startActivity(new Intent(getApplication(), MainScreen.class));
+            fm.beginTransaction().replace(R.id.container, new Menu2_Fragment()).commit();
         }
         else
         if (position== 1) {
-            startActivity(new Intent(getApplication(), MainActivity.class));
+            startActivity(new Intent(getApplication(), MainScreen.class));
            // fm.beginTransaction().replace(R.id.container, new Menu2_Fragment()).commit();
             //return true;
         }else
@@ -76,14 +74,15 @@ public class NavigationActivity extends Activity
             //return true;
         }else
         if (position == 3) {
-            startActivity(new Intent(getApplication(), MainActivity2.class));
+            startActivity(new Intent(getApplication(),GymExercises_YT_VidActivity.class));
             // fm.beginTransaction().replace(R.id.container, new Menu1_Fragment()).commit();
             //return true;
         }else
         if (position == 4) {
-            startActivity(new Intent(getApplication(), TipsActivity.class));
-            // fm.beginTransaction().replace(R.id.container, new Menu1_Fragment()).commit();
-            //return true;
+            startActivity(new Intent(getApplication(), DietActivity.class));
+        }else
+        if (position == 5) {
+            startActivity(new Intent(getApplication(), StepCounterActivity.class));
         }
     }
 
@@ -100,6 +99,9 @@ public class NavigationActivity extends Activity
                 break;
             case 4:
                 mTitle = getString(R.string.title_section4);
+                break;
+            case 5:
+                mTitle =getString(R.string.title_section5);
                 break;
         }
     }

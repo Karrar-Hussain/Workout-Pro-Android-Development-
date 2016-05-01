@@ -6,7 +6,7 @@
     android:layout_height="500dp"
     android:fillViewport="true"
     android:scrollbars="none"
-    android:background="@drawable/main_background">
+    android:background="@drawable/music_background">
 
     <LinearLayout android:layout_width="match_parent"
         android:layout_height="match_parent">

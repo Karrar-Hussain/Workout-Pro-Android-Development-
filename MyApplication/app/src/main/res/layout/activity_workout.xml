@@ -141,7 +141,7 @@
         android:layout_alignParentStart="true"
         android:layout_marginTop="10dp" />
 
-    <Button
+<!--    <Button
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -150,7 +150,7 @@
         android:layout_alignRight="@id/ex_spinner"
         android:layout_below="@+id/viewPrecaution"
         android:layout_marginTop="46dp" />
-
+-->
 </RelativeLayout>
         </LinearLayout>
     </ScrollView>

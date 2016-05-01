@@ -17,7 +17,6 @@ public class Database_Conn extends SQLiteOpenHelper {
     
     public Database_Conn(Context context) {
         super(context, db_name, null, 1);
-
     }
 
     @Override

@@ -1,0 +1,47 @@
+Food	Size	Calories
+Apple	1 small (4 oz.)	80
+Banana	1 medium (6 oz.)	101
+Grape	1 each	2
+Mango	1 (8 oz.)	135
+Orange	1 (4 oz.)	71
+Pear	1 (5 oz.)	100
+Peach	1 (6 oz.)	38
+Pineapple	1 cup	80
+Strawberry	1 cup	53
+Watermelon	1 cup	45
+
+Asparagus	1 cup, boiled	36
+Bean curd	4 oz.	81
+Broccoli	1 cup	40
+Carrots	1 cup	45
+Cucumber	1 each	30
+Eggplant	1 cup, boiled	38
+Lettuce	1 cup	7
+Tomato	1 cup	29
+
+Beef, regular, cooked	1 slice (2 oz.)	120
+Chicken, cooked	1 slice (2 oz.)	95
+Egg	1 large	79
+Fish, Catfish, cooked	2 oz.	80
+Pork, cooked	1 slice (2 oz.)	130
+Shrimp, cooked	2 oz.	70
+
+Bread, regular	1 slice (1 oz.)	75
+Butter	1 table spoon	102
+Caesar salad	1 serving (3 cups)	360
+Cheeseburger	1 (McDonald Medium)	360
+Chocolate	1 oz.	150
+Corn	1 cup, cooked	140
+Hamburger	1 (McDonald Medium)	280
+Pizza	1 slice	180
+Potato (uncooked)	1 (6 oz.)	120
+Rice, cooked	1 cup	225
+Sandwich	1 (6" Subway)	310
+
+Beer, regular	1 can or bottle	150
+Milk, low-fat (1%)	1 cup	104
+Milk, low-fat (2%)	1 cup	121
+Milk, whole	1 cup	150
+Orange Juice / Apple Cider	1 cup	115
+Yogurt, low-fat	1 cup	200
+Yogurt, non-fat	1 cup	150

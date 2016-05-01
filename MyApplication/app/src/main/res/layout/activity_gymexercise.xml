@@ -18,7 +18,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:background="@drawable/body_parts"
-    tools:context=".view.MainActivity">
+    tools:context=".view.MainScreen">
 
     <Button
         android:layout_width="wrap_content"

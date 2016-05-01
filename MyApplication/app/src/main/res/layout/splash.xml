@@ -2,7 +2,27 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background"
+    android:background="@color/colorFifth"
     android:theme="@style/AppTheme"
     >
+
+    <WebView
+        android:layout_width="244dp"
+        android:layout_height="244dp"
+        android:id="@+id/webView3"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center_horizontal" />
+
+    <WebView
+        android:layout_width="140dp"
+        android:layout_height="180dp"
+        android:id="@+id/webView"
+        android:layout_marginTop="-200dp"
+        android:layout_gravity="center_horizontal" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView2" >
+
+</ScrollView>
 </LinearLayout>

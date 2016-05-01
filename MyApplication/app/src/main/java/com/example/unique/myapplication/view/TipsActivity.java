@@ -128,8 +128,7 @@ public class TipsActivity extends Activity implements AdapterView.OnItemSelected
         Intent intent = new Intent(Intent.ACTION_VIEW);
         intent.setDataAndType(
                 Uri.parse("file://" + getFilesDir() + "/"+pdfName),
-                "application/mp3");
-
+                "application/pdf");
         startActivity(intent);
     }
 

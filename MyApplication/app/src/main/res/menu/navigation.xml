@@ -7,13 +7,21 @@
     <item
         android:id="@+id/bmi_layout"
         android:showAsAction="withText|ifRoom"
-        android:title="Calculate BMI" />
+        android:title="Music Player" />
     <item
         android:id="@+id/iw_layout"
         android:orderInCategory="100"
-        android:title="Calculate Ideal Weight" />
+        android:title="Video Predictions" />
+    <item
+        android:id="@+id/diet_layout"
+        android:orderInCategory="100"
+        android:title="Diet Scheduler" />
     <item
         android:id="@+id/iw_layout2"
         android:orderInCategory="100"
-        android:title="Title 4" />
+        android:title="Step Counter" />
+    <item
+        android:id="@+id/menu5"
+        android:orderInCategory="100"
+        android:title="Step Counter2" />
 </menu>

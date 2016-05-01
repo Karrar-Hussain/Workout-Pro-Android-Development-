@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Workout</string>
+    <string name="app_name">Workout Pro</string>
 
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
@@ -15,11 +15,12 @@
     </string>
     <string name="title_activity_navigation">NavigationActivity</string>
 
-    <string name="title_section1">Home</string>
-    <string name="title_section2">BMI</string>
-    <string name="title_section3">Ideal Weight</string>
-    <string name="title_section4">Tips</string>
-    <string name="title_section5">Section4</string>
+    <string name="title_section1">Welcome Page</string>
+    <string name="title_section2">Home</string>
+    <string name="title_section3">Music Player</string>
+    <string name="title_section4">Video Prediction</string>
+    <string name="title_section5">Diet Schduler</string>
+    <string name="title_section6">Diet Schduler</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>

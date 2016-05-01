@@ -1,9 +1,8 @@
 package com.example.unique.myapplication.view;
 
 import android.app.ListActivity;
-import android.graphics.drawable.Drawable;
+import android.database.Cursor;
 import android.media.MediaPlayer;
-import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
 import android.view.ActionMode;
@@ -15,41 +14,28 @@ import android.widget.MediaController;
 import android.widget.Toast;
 
 import com.example.unique.myapplication.R;
+import com.example.unique.myapplication.model.Exercises_Tbl;
 
 import java.io.File;
-import java.io.FilenameFilter;
 import java.io.IOException;
-import java.io.OutputStream;
-import java.io.OutputStreamWriter;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MusicPlayerActivity extends ListActivity implements MediaController.MediaPlayerControl{
+public class MusicPlayerActivity extends ListActivity{
 
     ListView viewList;
     List<String> songs=new ArrayList<String>();
-    private File SD_PATH;// = Environment.getExternalStorageDirectory().getPath() + "/";
-    //private static final String SD_PATH =new String("/sdcard/");
     private MediaPlayer mp=new MediaPlayer();
-    private ArrayList<File> fileList = new ArrayList<File>();
+    private ArrayList<String> fileList = new ArrayList<String>();
     Button btnPause,btnForward,btnBackward;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.layout);
+        setContentView(R.layout.activity_music_player);
         //viewList =(ListView) findViewById(R.id.musicList);
-        SD_PATH = new File(Environment.getExternalStorageDirectory().getAbsolutePath());
-        getMusicList();
-        Button btnUpdate=(Button) findViewById(R.id.btnUpdate);
-        btnUpdate.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (fileList.size() == 0)
-                    getMusicList();
-            }
-        });
 
+        getMusicList();
         //viewList.setAdapter(songList);
         //Toast.makeText(this,"SD Card: "+SD_PATH,Toast.LENGTH_LONG).show();
         mp.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
@@ -93,7 +79,7 @@ public class MusicPlayerActivity extends ListActivity implements MediaController
             if(fileList.size()>0) {
                 try {
                     mp.reset();
-                    mp.setDataSource(fileList.get(currentPosition).getPath());
+                    mp.setDataSource(fileList.get(currentPosition));
                     mp.prepare();
                 } catch (IOException e) {
                     e.printStackTrace();
@@ -111,41 +97,23 @@ public class MusicPlayerActivity extends ListActivity implements MediaController
 
     public void getMusicList()
     {
-        getfile(SD_PATH);
-        ArrayAdapter<String> songList = new ArrayAdapter<String>(this, R.layout.web_view, songs);
+        getfile();
+        ArrayAdapter<String> songList = new ArrayAdapter<String>(this, R.layout.music_textview, songs);
         setListAdapter(songList);
     }
-    public ArrayList<File> getfile(File dir) {
+    public void getfile() {
+        Exercises_Tbl exercises_tbl=new Exercises_Tbl(this);
+        Cursor cr=exercises_tbl.retrieveAllMusic();
+        cr.moveToFirst();
+        while(cr.moveToNext())
+        {
+            songs.add(cr.getString(cr.getColumnIndex("Music_Title")));
+            fileList.add(cr.getString(cr.getColumnIndex("Music_Path")));
 
-        File listFile[] = dir.listFiles();
-        if (listFile != null && listFile.length > 0) {
-            for (int i = 0; i < listFile.length; i++) {
-
-                if (listFile[i].isDirectory())
-                 getfile(listFile[i]);
-                else {
-                    if (listFile[i].getPath().endsWith(".mp3")) {
-                        fileList.add(listFile[i]);
-                        songs.add(listFile[i].getName());
-                    }
-                }
-
-            }
         }
-        return fileList;
+
     }
     private int currentPosition=0;
-
-    @Override
-    protected void onPause() {
-        super.onPause();
-        finish();
-    }
-
-    @Override
-    public void onActionModeFinished(ActionMode mode) {
-        super.onActionModeFinished(mode);
-    }
 
     private void playPrev()
     {
@@ -153,7 +121,7 @@ public class MusicPlayerActivity extends ListActivity implements MediaController
         {
             try {
                 mp.reset();
-                mp.setDataSource(fileList.get(--currentPosition).getPath());
+                mp.setDataSource(fileList.get(--currentPosition));
                 mp.prepare();
                 mp.start();
                 Toast.makeText(this,""+songs.get(currentPosition),Toast.LENGTH_SHORT).show();
@@ -166,7 +134,7 @@ public class MusicPlayerActivity extends ListActivity implements MediaController
     {
         try {
             mp.reset();
-            mp.setDataSource(fileList.get(++currentPosition).getPath());
+            mp.setDataSource(fileList.get(++currentPosition));
             mp.prepare();
             mp.start();
             Toast.makeText(this,""+songs.get(currentPosition),Toast.LENGTH_SHORT).show();
@@ -181,66 +149,13 @@ public class MusicPlayerActivity extends ListActivity implements MediaController
             btnPause.setBackgroundResource(R.drawable.pause);
             currentPosition=position;
             mp.reset();
-            mp.setDataSource(fileList.get(currentPosition).getPath());
+            mp.setDataSource(fileList.get(currentPosition));
             mp.prepare();
             mp.start();
+            Toast.makeText(this,"Now Playing: "+songs.get(currentPosition)+" ...",Toast.LENGTH_SHORT).show();
         }catch(IOException e){
             e.getStackTrace();
         }
     }
 
-    @Override
-    public void start() {
-        mp.start();
-    }
-
-    @Override
-    public void pause() {
-        mp.pause();
-    }
-
-    @Override
-    public int getDuration() {
-        return mp.getDuration();
-    }
-
-    @Override
-    public int getCurrentPosition() {
-        return mp.getCurrentPosition();
-    }
-
-    @Override
-    public void seekTo(int pos) {
-mp.seekTo(pos);
-    }
-
-    @Override
-    public boolean isPlaying() {
-        return false;
-    }
-
-    @Override
-    public int getBufferPercentage() {
-        return 0;
-    }
-
-    @Override
-    public boolean canPause() {
-        return true;
-    }
-
-    @Override
-    public boolean canSeekBackward() {
-        return true;
-    }
-
-    @Override
-    public boolean canSeekForward() {
-        return true;
-    }
-
-    @Override
-    public int getAudioSessionId() {
-        return 0;
-    }
 }

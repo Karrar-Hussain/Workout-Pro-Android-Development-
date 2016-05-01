@@ -10,6 +10,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 import com.example.unique.myapplication.R;
+import com.example.unique.myapplication.control.Calculators;
 
 /**
  * A login screen that offers login via email/password.
@@ -51,7 +52,7 @@ public class BMIActivity extends Activity {
             public void onFocusChange(View v, boolean hasFocus) {
                 if (!hasFocus) {
                     heightcm = Double.parseDouble(heighttxtcm.getText().toString());
-                    heightft = .39 * heightcm;
+                    heightft = 0.032808 * heightcm;
                     heighttxtft.setText(heightft.toString());
                 }
             }
@@ -80,11 +81,13 @@ public class BMIActivity extends Activity {
             @Override
             public void onClick(View v)
             {
-                heightcm /= 100;
-                bmi = weightft / (heightcm * heightcm);
+                //heightcm /= 100;
+                //bmi = weightft / (heightcm * heightcm);
+                Calculators cal=new Calculators();
+                bmi=cal.BMI_Cal(weightft,heightcm);
                 ideal_w = (((0.5 * bmi) + 11.5) * heightcm * heightcm);
                 viewbmi.setText(String.format("Your BMI : %.2f", bmi));
-                viewcnpd.setText(String.format("Ideal Weight :%.2f ", ideal_w));
+                //viewcnpd.setText(String.format("Ideal Weight :%.2f ", ideal_w));
             }
         });
         btnIW.setOnClickListener(new View.OnClickListener(){
