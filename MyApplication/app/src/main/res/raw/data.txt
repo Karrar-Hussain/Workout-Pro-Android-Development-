@@ -1,298 +1,558 @@
-
 Bench Press
-
 Muscles Targeted
 Main Muscle Group:	 Chest
 Secondary Muscles:	Triceps
-
 Textual Instructions
 Starting Position:	Lie down on your back on the bench and grasp the barbell with both hands in a medium-grip position.
 Motion:	Push the barbell straight up until your elbows are close to being locked and lower it back slowly after a short pause.
 Tips/Caution:	Breathe out while pushing the bar and breathe in while lowering it back.
- 
 300
 Bench Press Close grip
 Muscles Targeted
 Main Muscle Group:	 Chest
 Secondary Muscles:	Inner Chest
-
 Textual Instructions
 Starting Position:	Lie down on your back on the bench and grasp the barbell with both hands in a close-grip position.
 Motion:	Push the barbell straight up until your elbows are close to being locked and lower it back slowly after a short pause.
 Tips/Caution:	Breathe out while pushing the bar and breathe in while lowering it back.
 301
 Bench Press Wide grip
-
 Muscles Targeted
 Main Muscle Group:	 Chest
 Secondary Muscles:	Inner Chest
-
 Textual Instructions
 Starting Position:	Lie down on your back on the bench and grasp the barbell with both hands in a wide-grip position.
 Motion:	Push the barbell straight up until your elbows are close to being locked and lower it back slowly after a short pause.
 Tips/Caution:	Breathe out while pushing the bar and breathe in while lowering it back.
 302
-Bench Press (Gym Equipment)
-  
+Bench Press Gym Equipment
 Muscles Targeted
 Main Muscle Group:	 Chest
 Secondary Muscles:	Triceps
-
 Textual Instructions
 Starting Position:	Lie down on your back on the bench and grasp the handles with your hands.
 Motion:	Push the handle bars straight up until your elbows are close to being locked and lower them back slowly after a short pause.
 Tips/Caution:	Breathe out while pushing the bar and breathe in while lowering it back.
 303
 Bench Press - Incline
-  
 Muscles Targeted
 Main Muscle Group:	 Chest
 Secondary Muscles:	Triceps
-
 Textual Instructions
 Starting Position:	Lie down on your back on the incline bench and grasp the barbell with both hands in a medium-grip position.
 Motion:	Push the barbell straight up until your elbows are close to being locked and lower it back slowly after a short pause.
 Tips/Caution:	Breathe out while pushing the bar and breathe in while lowering it back.
 304
 Bench Press - Incline; Wide-Grip
-  
 Muscles Targeted
 Main Muscle Group:	 Chest
 Secondary Muscles:	Outer Chest
-
 Textual Instructions
 Starting Position:	Lie down on your back on the incline bench and grasp the barbell with both hands in a wide-grip position.
 Motion:	Push the barbell straight up until your elbows are close to being locked and lower it back slowly after a short pause.
 Tips/Caution:	Breathe out while pushing the bar and breathe in while lowering it back.
 305
 Bench Press - Decline
-  
 Muscles Targeted
 Main Muscle Group:	 Chest
 Secondary Muscles:	Triceps
-
 Textual Instructions
 Starting Position:	Lie down on your back on the decline bench and grasp the barbell with both hands in a close-grip position.
 Motion:	Push the barbell straight up until your elbows are close to being locked and lower it back slowly after a short pause.
 Tips/Caution:	Breathe out while pushing the bar and breathe in while lowering it back.
 306
 Bench Press - Decline; Wide-Grip
-  
 Muscles Targeted
 Main Muscle Group:	 Chest
 Secondary Muscles:	Outer Chest
-
 Textual Instructions
 Starting Position:	Lie down on your back on the decline bench and grasp the barbell with both hands in a wide-grip position.
 Motion:	Push the barbell straight up until your elbows are close to being locked and lower it back slowly after a short pause.
 Tips/Caution:	Breathe out while pushing the bar and breathe in while lowering it back.
 307
 Bench Press - Decline; to Neck
-  
 Muscles Targeted
 Main Muscle Group:	 Chest
 Secondary Muscles:	Triceps
-
 Textual Instructions
 Starting Position:	Lie down on your back on the decline bench and grasp the barbell with both hands in a medium-grip position.
 Motion:	Push the barbell straight up until your elbows are close to being locked and lower it back slowly after a short pause.
 Tips/Caution:	Breathe out while pushing the bar and breathe in while lowering it back.
 308
 Dumbbell Press
-  
 Muscles Targeted
 Main Muscle Group:	 Chest
 Secondary Muscles:	Triceps
-
 Textual Instructions
 Starting Position:	Lie down on your back on a bench and hold 2 dumbbells at chest level along your body.
 Motion:	Push the barbell straight up until your elbows are close to being locked and lower it back slowly after a short pause.
 Tips/Caution:	Breathe out while pushing the dumbbells and breathe in while lowering them back.
 309
 Dumbbell Press - Neutral Grip
-  
 Muscles Targeted
 Main Muscle Group:	 Chest
 Secondary Muscles:	Triceps
-
 Textual Instructions
 Starting Position:	Lie down on your back on a bench and hold 2 dumbbells at chest level along your body, palms facing each other.
 Motion:	Push the dumbbells straight up until your elbows are close to being locked and lower them back slowly after a short pause.
 Tips/Caution:	Breathe out while pushing the dumbbells and breathe in while lowering them back.
 310
 Dumbbell Press - from Pronation to Neutral Grip
-  
 Muscles Targeted
 Main Muscle Group:	 Chest
 Secondary Muscles:	Triceps
-
 Textual Instructions
 Starting Position:	Lie down on your back on a bench and hold 2 dumbbells at chest level along your body, palms facing your feet.
 Motion:	Push the dumbbells straight up until your elbows are close to being locked and lower them back slowly after a short pause.
 Tips/Caution:	Breathe out while pushing the dumbbells and breathe in while lowering them back.
 311
 Dumbbell Press - Incline
-  
 Muscles Targeted
 Main Muscle Group:	 Chest
 Secondary Muscles:	Triceps
-
 Textual Instructions
 Starting Position:	Lie down on your back on an incline bench and hold 2 dumbbells at chest level along your body, palms facing forward.
 Motion:	Push the dumbbells straight up until your elbows are close to being locked and lower them back slowly after a short pause.
 Tips/Caution:	Breathe out while pushing the dumbbells and breathe in while lowering them back.
 312
 Dumbbell Press - Incline; Neutral Grip
-  
 Muscles Targeted
 Main Muscle Group:	 Chest
 Secondary Muscles:	Triceps
-
 Textual Instructions
 Starting Position:	Lie down on your back on an incline bench and hold 2 dumbbells at chest level along your body, palms facing each other.
 Motion:	Push the dumbbells straight up until your elbows are close to being locked and lower them back slowly after a short pause.
 Tips/Caution:	Breathe out while pushing the dumbbells and breathe in while lowering them back.
 313
 Dumbbell Press - Decline
-  
 Muscles Targeted
 Main Muscle Group:	 Chest
 Secondary Muscles:	Triceps
-
 Textual Instructions
 Starting Position:	Lie down on your back on a decline bench and hold 2 dumbbells at chest level, palms facing forward.
 Motion:	Push the dumbbells straight up until your elbows are close to being locked and lower them back slowly after a short pause.
 Tips/Caution:	Breathe out while pushing the dumbbells and breathe in while lowering them back.
 314
 Chest Press (Gym Equipment) - Pronation Grip
-  
 Muscles Targeted
 Main Muscle Group:	 Chest
 Secondary Muscles:	Triceps
-
 Textual Instructions
 Starting Position:	Sit down on the bench and grab the handles with your hands, palms facing the floor.
 Motion:	Push the handles forward until your arms are close to being fully extended and slowly let them swing back after a short pause.
 Tips/Caution:	Breathe out while pushing forward and breathe in while letting the handlebars swing back.
 315
 Chest Press (Gym Equipment) - Neutral Grip
-  
 Muscles Targeted
 Main Muscle Group:	 Chest
 Secondary Muscles:	Triceps
-
 Textual Instructions
 Starting Position:	Sit down on the bench and grab the handles with your hands, palms facing each other.
 Motion:	Push the handles forward until your arms are close to being fully extended and slowly let them swing back after a short pause.
 Tips/Caution:	Breathe out while pushing forward and breathe in while letting the handlebars swing back.
 316
 Push Up
-  
 Muscles Targeted
 Main Muscle Group:	 Chest
 Secondary Muscles:	Triceps
-
 Textual Instructions
 Starting Position:	Lie down on the floor, body fully extended, hands in a medium grip position with only your hands and feet touching the floor.
 Motion:	Push yourself up by extending your arms and lower yourself back down after a short pause.
 Tips/Caution:	Breathe out while pushing yourself up and breathe in while lowering yourself down.
 317
 Push Up - on Knees
-  
 Muscles Targeted
 Main Muscle Group:	 Chest
 Secondary Muscles:	Triceps
-
 Textual Instructions
 Starting Position:	Lie down on the floor, body fully extended, hands in a medium grip position and only your hands and knees touching the floor.
 Motion:	Push yourself up by extending your arms and lower yourself back down after a short pause.
 Tips/Caution:	Breathe out while pushing yourself up and breathe in while lowering yourself down.
 318
-Chest Fly (Gym Equipment)
-  
+Chest Fly -Gym Equipment
 Muscles Targeted
 Main Muscle Group:	 Chest
 Secondary Muscles:	Outer Chest
-
 Textual Instructions
 Starting Position:	Sit down on the bench and position your arms against the arm pads, elbows at 90 degree angles.
 Motion:	Push your hands towards each other in front of your chest and let them go back after a short pause.
 Tips/Caution:	Keep your back straight throughout.
 319
-Chest Fly (Dumbbells)
-  
+Chest Fly -Dumbbells
 Muscles Targeted
 Main Muscle Group:	 Chest
 Secondary Muscles:	Outer Chest
-
 Textual Instructions
 Starting Position:	Lie down on your back on the bench and grab one dumbbell with each hand at shoulder height, elbows just slightly arched.
 Motion:	Raise the dumbbells until they are side by side on top of you and slowly lower them back after a short pause.
 Tips/Caution:	Try to maintain the same angle in your elbows throughout.
 320
-Chest Fly (Dumbbells) - Incline
-  
+Chest Fly -Dumbbells - Incline
 Muscles Targeted
 Main Muscle Group:	 Chest
 Secondary Muscles:	Outer Chest
-
 Textual Instructions
 Starting Position:	Lie down on your back on an incline bench and grab one dumbbell with each hand at shoulder height, elbows at 90 degree angles.
 Motion:	Raise the dumbbells until they are side by side on top of you and slowly lower them back after a short pause.
 Tips/Caution:	Try to maintain the same angle in your elbows throughout.
 321
-Chest Fly (Dumbbells) - Decline
-  
+Chest Fly Dumbbells - Decline
 Muscles Targeted
 Main Muscle Group:	 Chest
 Secondary Muscles:	Outer Chest
-
 Textual Instructions
 Starting Position:	Lie down on your back on a decline bench and hold 2 dumbbells at shoulders level, palms facing each other.
 Motion:	Raise the dumbbells until they are side by side on top of you and slowly lower them back after a short pause.
 Tips/Caution:	Try to maintain the same angle in your elbows throughout.
 322
 Chest Fly (High Pulley)
-  
 Muscles Targeted
 Main Muscle Group:	 Chest
 Secondary Muscles:	Outer Chest
-
 Textual Instructions
 Starting Position:	Stand up in front of the high pulley machine with your back facing it and grab both handles at shoulder height.
 Motion:	Pull the handles forward until your hands are in front of your abdomen and allow them to go back after a short pause.
 Tips/Caution:	Try to maintain the same angle in your elbows throughout.
 323
 Pullover (Dumbbell) - Straight-Arm
-  
 Muscles Targeted
 Main Muscle Group:	 Chest
 Secondary Muscles:	Triceps
-
 Textual Instructions
 Starting Position:	Lie down on your back on one end of the bench and hold 2 dumbbells at your head height, arms extended.
 Motion:	Raise the dumbbell up until your arms are perpendicular to the floor and slowly return to starting position.
 Tips/Caution:	Breathe out while raising the dumbbell and breathe in while returning to starting position.
 328
 Pullover (Dumbbell) - Straight-Arm; Across Bench
-  
 Muscles Targeted
 Main Muscle Group:	 Chest
 Secondary Muscles:	Triceps
-
 Textual Instructions
 Starting Position:	Lie down on your back across the bench and hold one dumbbell with both hands at your head height, arms extended.
 Motion:	Raise the dumbbell up until your arms are perpendicular to the floor and slowly return to starting position.
 Tips/Caution:	Breathe out while raising the dumbbell and breathe in while returning to starting position.
 329
 Pullover (Barbell) - Bent-Arm
-  
 Muscles Targeted
 Main Muscle Group:	 Chest
 Secondary Muscles:	Triceps
-
 Textual Instructions
 Starting Position:	Lie down on your back on one end of the bench and hold the barbell below your head height, elbows at 90 degree angles.
 Motion:	Raise the barbell and bring it on top of your chest while keeping the angles in your elbows still and slowly return to starting position.
 Tips/Caution:	Breathe out while raising the barbell and breathe in while lowering it back.
 330
+Crunch
+Muscles Targeted
+Main Muscle Group:Abs
+Secondary Muscles:Upper Abdominals
+Textual Instructions
+Starting Position:Lie down on your back, knees bent at 90 degree angles and place your hands behind your ears.
+Motion:Roll your shoulder blades up from the floor until your head is at the same level as your knees and lower yourself back down after a short pause.
+Tips/Caution:To avoid pulling your neck with your hands, look straight up instead of looking at your knees.
+100
+Crunch - Arms Extended
+Muscles Targeted
+Main Muscle Group:Abs
+Secondary Muscles:Upper Abdominals
+Textual Instructions
+Starting Position:Lie down on your back, knees bent at 90 degree angles and extend your arms until they are parallel to your thighs.
+Motion:Roll your shoulder blades up from the floor until your hands reach above your knees and lower yourself back down after a short pause.
+Tips/Caution:To avoid pulling with your neck, look straight up instead of
+101
+Crunch - Legs Elevated
+Muscles Targeted
+Main Muscle Group:Abs
+Secondary Muscles:Upper Abdominals
+Textual Instructions
+Starting Position:Lie down on your back, feet against the wall, hands behind your ears.
+Motion:Roll your shoulder blades up from the floor until your elbows touch your knees (or close to it) and lower yourself back down after a short pause.
+Tips/Caution:To avoid pulling your neck with your hands, look straight up instead of looking at your knees.
+102
+Crunch - Weighted
+Muscles Targeted
+Main Muscle Group:Abs
+Secondary Muscles:Upper Abdominals
+Textual Instructions
+Starting Position:Lie down on your back on a bench and hold a dumbbell on top of your chest.
+Motion:Roll your shoulder blades up from the bench and lower yourself back down after a short pause.
+Tips/Caution:To avoid pulling with your neck, look straight up instead of looking at your knees.
+103
+Crunch (Gym Equipment A)
+Muscles Targeted
+Main Muscle Group:	 Abs
+Secondary Muscles:	Upper Abdominals
+Textual Instructions
+Starting Position:	Sit down on the machine's bench and hold the pad with both hands in front of your chest.
+Motion:	Tilt your upper body forward and let it slowly swing back after a short pause.
+Tips/Caution:	Breathe out while contracting your ab muscles and breathe in while returning to starting position.
+104
+Twisting Crunch
+Muscles Targeted
+Main Muscle Group:	 Abs
+Secondary Muscles:	Obliques
+Textual Instructions
+Starting Position:	Lie down on your back, knees bent at 90 degree angles and place your hands behind your ears.
+Motion:	Rotate your upper body up to one side so that one elbow is in the air and lower yourself back down after a short pause. Alternate sides after your set is completed.
+Tips/Caution:	Breathe out while contracting your ab muscles and breathe in while returning to starting position
+106
+Twisting Crunch - on Bench
+Muscles Targeted
+Main Muscle Group:	 Abs
+Secondary Muscles:	Obliques
+Textual Instructions
+Starting Position:	Lie down on your back on a bench and place one hand behind your ear.
+Motion:	Rotate your upper body up to one side so that one elbow is in the air and lower yourself back down after a short pause. Alternate sides after your set is completed.
+Tips/Caution:	Breathe out while contracting your ab muscles and breathe in while returning to starting position.
+107
+Twisting Crunch - Legs Crossed
+Muscles Targeted
+Main Muscle Group:	 Abs
+Secondary Muscles:	Obliques
+Textual Instructions
+Starting Position:	Lie down on your back, knees at 90 degree angles, one thigh on top of the other and place your hands behind your ears.
+Motion:	Rotate your upper body up to one side so that one elbow is in the air and lower yourself back down after a short pause. Alternate sides after your set is completed.
+Tips/Caution:	Breathe out while contracting your ab muscles and breathe in while returning to starting position.
+108
+Twisting Crunch - Legs Up
+Muscles Targeted
+Main Muscle Group:	 Abs
+Secondary Muscles:	Obliques
+Textual Instructions
+Starting Position:	Lie down on your back, legs straight in a vertical position and place your hands behind your ears.
+Motion:	Rotate your upper body up to one side so that one elbow is in the air and lower yourself back down after a short pause. Alternate sides after your set is completed.
+Tips/Caution:	Breathe out while contracting your ab muscles and breathe in while returning to starting position.
+109
+Twisting Crunch - Inclined; Feet Stabilized
+Muscles Targeted
+Main Muscle Group:	 Abs
+Secondary Muscles:	Obliques
+Textual Instructions
+Starting Position:	Lie down on the bench, knees at 90 degree angles, feet stabilized by the foot pads and place your hands on each side of your ears.
+Motion:	Rotate your upper body up to one side so that one elbow is in the air and lower yourself back down after a short pause. Alternate sides after your set is completed.
+Tips/Caution:	Breathe out while contracting your ab muscles and breathe in while returning to starting position.
+110
+Side Crunch
+Muscles Targeted
+Main Muscle Group:	 Abs
+Secondary Muscles:	Obliques
+Textual Instructions
+Starting Position:	Lie down on your back, knees at 90 degree angles, let your legs lie on one side and place your hands behind your ears.
+Motion:	Roll your shoulder blades up from the bench and lower yourself back down after a short pause. Alternate sides after your set is completed.
+Tips/Caution:	Breathe out while contracting your ab muscles and breathe in while returning to starting position.
+111
+Side Crunch - Inclined; Feet Attached
+Muscles Targeted
+Main Muscle Group:	 Abs
+Secondary Muscles:	Obliques
+Textual Instructions
+Starting Position:	Lie down on the bench on one side, feet stabilized by the foot pads and place your hands behind your ears.
+Motion:	Raise your upper body up from the bench and lower yourself back down after a short pause. Alternate sides after your set is completed.
+Tips/Caution:	Breathe out while contracting your ab muscles and breathe in while returning to starting position.
+112
+Reverse Crunch
+Muscles Targeted
+Main Muscle Group:	 Abs
+Secondary Muscles:	Lower Abdominals
+Textual Instructions
+Starting Position:	Lie down on your back on a bench, raise your feet in the air so that your knees are at 90 degree angles and grab the bench with your hands close to your head.
+Motion:	Contract your abs in order to lift your buttocks from the bench and lower yourself back after a short pause.
+Tips/Caution:	Breathe out while contracting your ab muscles and breathe in while returning to starting position.
+113
+Reverse Crunch - Inclined
+Muscles Targeted
+Main Muscle Group:	 Abs
+Secondary Muscles:	Lower Abdominals
+Textual Instructions
+Starting Position:	Lie down on the bench, legs up, knees at 90 degree angles and hold the bench with your hands close to your head.
+Motion:	Contract your abs in order to lift your buttocks from the bench and lower yourself back after a short pause.
+Tips/Caution:	Breathe out while contracting your ab muscles and breathe in while returning to starting position.
+114
+Reverse Crunch - Legs Vertical
+Muscles Targeted
+Main Muscle Group:	 Abs
+Secondary Muscles:	Lower Abdominals
+Textual Instructions
+Starting Position:	Lie down on your back, legs up and perpendicular to the floor and place your hands flat on the floor.
+Motion:	Contract your abs in order to lift your buttocks from the floor and lower yourself back after a short pause.
+Tips/Caution:	Breathe out while contracting your ab muscles and breathe in while returning to starting position.
+115
+Sit-Up - Legs Elevated
+Muscles Targeted
+Main Muscle Group:	 Abs
+Secondary Muscles:	Hips,Upper Abdominals
+Textual Instructions
+Starting Position:	Lie down on your back, feet on top of a small bench, and place your hands behind your ears.
+Motion:	Roll your upper body up until your elbows touch your knees (or close to it) and lower yourself back down after a short pause.
+Tips/Caution:	To avoid pulling your neck with your hands, look straight up instead of looking at your knees.
+116
+Sit-Up - Inclined; Feet Attached
+Muscles Targeted
+Main Muscle Group:	 Abs
+Secondary Muscles:	Hips,Upper Abdominals
+Textual Instructions
+Starting Position:	Lie down on the bench, knees at 90 degree angles, feet stabilized by the foot pads and place your hands behind your ears.
+Motion:	Roll your upper body up until your elbows touch your knees (or close to it) and lower yourself back down after a short pause.
+Tips/Caution:	To avoid pulling your neck with your hands, look straight up instead of looking at your knees.
+117
+Sit-Up - on Bench
+Muscles Targeted
+Main Muscle Group:	 Abs
+Secondary Muscles:	Hips,Upper Abdominals
+Textual Instructions
+Starting Position:	Lie down on your back on the bench and place your hands behind your ears.
+Motion:	Roll your upper body up until it is perpendicular to the floor and lower yourself back down after a short pause.
+Tips/Caution:	To avoid pulling your neck with your hands, look straight up instead of looking at your knees.
+118
+Sit-Up - Jacknife
+Muscles Targeted
+Main Muscle Group:	 Abs
+Secondary Muscles:	Hips,Upper Abdominals,Lower Abdominals
+Textual Instructions
+Starting Position:	Lie down on your back and extend your arms fully on the floor.
+Motion:	Raise your legs and upper body up to a 45 degree angle from the floor, extend your arms towards your feet and lower yourself back down after a short pause.
+Tips/Caution:	Try to keep your legs extended, back straight and arms parallel to the ground throughout.
+119
+Sit-Up - Lateral
+Muscles Targeted
+Main Muscle Group:	 Abs
+Secondary Muscles:	Hips,Obliques
+Textual Instructions
+Starting Position:	Lie down on your back, knees bent at 90 degree angles and extend your arms straight towards the exterior of your right knee.
+Motion:	Raise your upper body up, extending your arms towards the side of the knee and lower yourself back down after a short pause. Alternate sides.
+Tips/Caution:	Breathe out while contracting your ab muscles and breathe in while returning to starting position.
+120
+Leg Raise - Weighted
+Muscles Targeted
+Main Muscle Group:	 Abs
+Secondary Muscles:	Hips,Quadriceps,Lower Abdominals
+Textual Instructions
+Starting Position:	Lie down on your back on the bench, hands gripping the sides of it and hold a dumbbell between your feet.
+Motion:	Raise your legs up until they are perpendicular to the floor and lower them back after a short pause.
+Tips/Caution:	Keep your legs extended throughout.
+121
+Leg Raise (Dip Stand)
+Muscles Targeted
+Main Muscle Group:	 Abs
+Secondary Muscles:	Hips,Quadriceps,Lower Abdominals
+Textual Instructions
+Starting Position:	Grip the support bars with your hands and extend your arms in order to lift yourself from the ground.
+Motion:	Raise your legs up until they are parallel to the ground (if you can do it) and lower them back after a short pause.
+Tips/Caution:	Keep your legs extended throughout.
+122
+Leg Raise (Dip Stand) - Alternated
+Muscles Targeted
+Main Muscle Group:	 Abs
+Secondary Muscles:	Hips,Quadriceps,Lower Abdominals
+Textual Instructions
+Starting Position:	Grip the support bars with your hands and extend your arms in order to lift yourself from the ground.
+Motion:	Raise one leg up until it is parallel to the ground (if you can do it) and lower it back after a short pause. Alternate legs.
+Tips/Caution:	Keep your legs extended throughout.
+123
+Leg Raise (Dip Stand) - Side
+Muscles Targeted
+Main Muscle Group:	 Abs
+Secondary Muscles:	Hips,Obliques
+Textual Instructions
+Starting Position:	Climb up onto the structure by positioning your arms against the arm pads, elbows locked at 90 degree angles.
+Motion:	Raise your knees to one side until your thighs are parallel to the ground and lower them back after a short pause.
+Tips/Caution:	Breathe out while contracting your ab muscles and breathe in while returning to starting position.
+124
+Leg Pull-In
+Muscles Targeted
+Main Muscle Group:	 Abs
+Secondary Muscles:	Hips,Lower Abdominals
+Textual Instructions
+Starting Position:	Lie down on your back and rest your arms along the sides of your body.
+Motion:	Bring your legs towards your upper body until your thighs form a 45 degree angle with your upper body and extend them back after a short pause.
+Tips/Caution:	Breathe out while extending your legs and breathe in while bringing them back.
+125
+Leg Pull-In - on Bench
+Muscles Targeted
+Main Muscle Group:	 Abs
+Secondary Muscles:	Hips,Lower Abdominals
+Textual Instructions
+Starting Position:	Lie down with your back on the bench, hands gripping its sides and extend your legs in line with your body.
+Motion:	Bring your legs towards your upper body until your thighs form a 45 degree angle with your upper body and extend them back after a short pause.
+Tips/Caution:	Breathe out while extending your legs and breathe in while bringing them back.
+126
+Leg Pull-In - on Bench High
+Muscles Targeted
+Main Muscle Group:	 Abs
+Secondary Muscles:	Hips,Lower Abdominals
+Textual Instructions
+Starting Position:	Lie down with your back on the bench, hands gripping its sides and extend your legs at a 30 degree angle with the floor.
+Motion:	Bring your legs towards your upper body until your thighs form a 45 degree angle with your upper body and extend them back after a short pause.
+Tips/Caution:	Breathe out while extending your legs and breathe in while bringing them back.
+127
+Leg Pull-In - High
+Muscles Targeted
+Main Muscle Group:	 Abs
+Secondary Muscles:	Hips,Lower Abdominals
+Textual Instructions
+Starting Position:	Sit on one end of a bench, hands gripping its sides and extend your legs so that your feet are at the same height as your chest.
+Motion:	Bring your legs towards your upper body until your knees are at a 90 degree angle and extend them back after a short pause.
+Tips/Caution:	Breathe out while extending your legs and breathe in while bringing them back.
+128
+Leg Pull-In - Low
+Muscles Targeted
+Main Muscle Group:	 Abs
+Secondary Muscles:	Hips,Lower Abdominals
+Textual Instructions
+Starting Position:	Sit on one end of a bench, hands gripping its sides and extend your legs so that your feet are slightly below the height of the bench.
+Motion:	Bring your legs towards your upper body until your knees are at a 90 degree angle and extend them back after a short pause.
+Tips/Caution:	Breathe out while extending your legs and breathe in while bringing them back.
+129
+Trunk Rotation - Lying
+Muscles Targeted
+Main Muscle Group:	 Abs
+Secondary Muscles:	Trunk,Obliques
+Textual Instructions
+Starting Position:	Lie down on your back on the bench, legs up, knees at 90 degree angles and hold the bench with your hands near your hips.
+Motion:	Rotate your trunk to lower your legs and knees to one side and raise them back up after a short pause. Alternate sides.
+Tips/Caution:	Keep the angles in your knees still throughout.
+130
+Trunk Rotation (Barbell)
+Muscles Targeted
+Main Muscle Group:	 Abs
+Secondary Muscles:	Trunk,Obliques
+Textual Instructions
+Starting Position:	Sit on a bench and place a barbell behind your neck, holding it with both hands in a wide grip position.
+Motion:	Rotate your upper body from one side to the other with short pauses between rotations.
+Tips/Caution:	Try to keep your back straight throughout.
+131
+Trunk Rotation (Gym Equipment)
+Muscles Targeted
+Main Muscle Group:	 Abs
+Secondary Muscles:	Trunk,Obliques
+Textual Instructions
+Starting Position:	Sit down on the machine, place your arms on top of the arm pads of the pivoting structure in front of you.
+Motion:	Rotate your trunk to one side and let it slowly swing back after a short pause. Alternate sides.
+Tips/Caution:	Try to keep your back straight throughout.
+132
+Side Bend (Barbell)
+Muscles Targeted
+Main Muscle Group:	 Abs
+Secondary Muscles:	Obliques
+Textual Instructions
+Starting Position:	Stand up, place a barbell behind your neck and hold it with both hands in a wide grip position.
+Motion:	Lean your upper body sideways and bring it back after a short pause. Alternate sides.
+Tips/Caution:	Try to keep your back straight throughout.
+133
+Side Bend (Dumbbells)
+Muscles Targeted
+Main Muscle Group:	 Abs
+Secondary Muscles:	Obliques
+Textual Instructions
+Starting Position:	Stand up and hold a dumbbell with one hand along the side of your body.
+Motion:	Lean your upper body to the side that holds the dumbbell and bring it back after a short pause. Complete your set and change sides.
+Tips/Caution:	Try to keep your back straight throughout.
+134
+Bicycle Kicks
+Muscles Targeted
+Main Muscle Group:	 Abs
+Secondary Muscles:	Hips,Lower Abdominals
+Textual Instructions
+Starting Position:	Sit on the floor, lean back to rest on your forearms, bend your hips and extend one leg 45 degrees from the gound.
+Motion:	While you push one leg out until it is stretched forward, bring the other one back so that you are cycling through the air.
+Tips/Caution:	Try to keep your back straight throughout.
+135

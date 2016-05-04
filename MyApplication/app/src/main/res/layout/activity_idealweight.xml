@@ -38,7 +38,9 @@
         android:layout_gravity="center_horizontal"
         android:layout_above="@+id/txtHeight"
         android:layout_toLeftOf="@+id/textView14"
-        android:layout_toStartOf="@+id/textView14" />
+        android:layout_toStartOf="@+id/textView14"
+        android:layout_marginTop="10dp"
+        android:text="0" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -255,8 +257,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Reference
-This Calorie Calculator is based on the Mifflin - St Jeor equation. With his proposed equation, the Basal Metabolic Rate (BMR) is calculated. Please fill in required information."
+        android:text="Reference: This Calorie Calculator is based on the Mifflin - St Jeor equation. With his proposed equation, the Basal Metabolic Rate (BMR) is calculated. Please fill in required information."
         android:id="@+id/textView7"
         android:layout_alignParentTop="true"
         android:textColor="@color/colorTertiary"

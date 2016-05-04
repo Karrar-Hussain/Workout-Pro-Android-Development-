@@ -10,7 +10,6 @@ package com.example.unique.myapplication.view;
         import android.widget.Toast;
 
         import com.example.unique.myapplication.R;
-        import com.example.unique.myapplication.model.Diet_Tbl;
         import com.example.unique.myapplication.model.Exercises_Tbl;
 
         import java.io.IOException;
@@ -44,23 +43,16 @@ public class Splash extends Activity{
             //the app is being launched for first time, do something
             Log.d("Comments", "First time");
 
-
             if(exercises_tbl.InsertMusic())
-                if(exercises_tbl.Insert())
+                Toast.makeText(Splash.this, "All Musics Inserted Successfully!", Toast.LENGTH_LONG).show();
+                if(exercises_tbl.InsertFromFile())
+                    Toast.makeText(Splash.this, "All Inserted From File Successfully!", Toast.LENGTH_LONG).show();
                 if(exercises_tbl.InsertDummy(getAllGifs()))
                     Toast.makeText(Splash.this, "All Inserted Successfully!", Toast.LENGTH_LONG).show();
             exercises_tbl.InputInDB();
             // record the fact that the app has been started at least once
             settings.edit().putBoolean("my_first_time", false).commit();
         }
-       /* else
-        {
-            exercises_tbl.Delete();
-            if(exercises_tbl.Insert()&&exercises_tbl.InsertMusic())
-                if(exercises_tbl.InsertDummy(getAllGifs()))
-                    Toast.makeText(Splash.this, "Exercises Inserted Successfully!", Toast.LENGTH_LONG).show();
-            exercises_tbl.InputInDB();
-        }*/
         Thread timer=new Thread()
         {
             public void run()
@@ -68,7 +60,7 @@ public class Splash extends Activity{
                 try{
                     webView=(WebView)findViewById(R.id.webView);
 //                    webView.loadUrl("file:///android_asset/main_background.gif");
-                    sleep(7000);
+                    sleep(3000);
                 }catch(InterruptedException e)
                 {
                     e.printStackTrace();

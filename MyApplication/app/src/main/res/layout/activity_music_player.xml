@@ -24,7 +24,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text=""
-        android:id="@+id/btnUpdate"
+        android:id="@+id/btnYoutube"
         android:background="@drawable/refresh_list"
         android:layout_gravity="bottom"
         android:layout_alignTop="@+id/btnBackward"
@@ -38,8 +38,8 @@
             android:id="@+id/btnBackward"
             android:background="@drawable/backward"
             android:layout_alignTop="@+id/btnPlay"
-            android:layout_toRightOf="@+id/btnUpdate"
-            android:layout_toEndOf="@+id/btnUpdate" />
+            android:layout_toRightOf="@+id/btnYoutube"
+            android:layout_toEndOf="@+id/btnYoutube" />
 
         <Button
             android:layout_width="wrap_content"

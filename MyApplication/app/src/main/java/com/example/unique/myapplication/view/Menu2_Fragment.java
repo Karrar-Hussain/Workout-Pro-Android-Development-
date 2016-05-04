@@ -6,11 +6,8 @@ import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.webkit.WebView;
 
 import com.example.unique.myapplication.R;
-import com.example.unique.myapplication.model.Diet_Tbl;
-import com.example.unique.myapplication.model.Exercises_Tbl;
 
 /**
  * Created by Unique on 4/19/2016.

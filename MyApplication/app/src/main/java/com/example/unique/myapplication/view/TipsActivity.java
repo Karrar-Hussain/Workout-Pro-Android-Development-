@@ -65,6 +65,7 @@ public class TipsActivity extends Activity implements AdapterView.OnItemSelected
                 } else {
                     for (int i=0; i<filelist.length; i++) {
                         // Get filename of file or directory
+                        if(filelist[i].contains(".pdf"))
                         ex_list.add( filelist[i]);
                     }
                 }

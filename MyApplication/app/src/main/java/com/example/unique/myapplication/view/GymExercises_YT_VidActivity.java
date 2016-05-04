@@ -32,7 +32,7 @@ public class GymExercises_YT_VidActivity extends Activity {
             viewBack.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Intent intent = new Intent(getApplicationContext(),MainActivity.class);
+                    Intent intent = new Intent(getApplicationContext(),VideoPrediction.class);
                     Bundle b = new Bundle();
                     b.putInt("key", 200); //Your id
                     intent.putExtras(b); //Put your id to your next Intent
@@ -42,7 +42,7 @@ public class GymExercises_YT_VidActivity extends Activity {
             viewAbs.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Intent intent = new Intent(getApplicationContext(),MainActivity.class);
+                    Intent intent = new Intent(getApplicationContext(),VideoPrediction.class);
                     Bundle b = new Bundle();
                     b.putInt("key", 100); //Your id
                     intent.putExtras(b); //Put your id to your next Intent
@@ -52,7 +52,7 @@ public class GymExercises_YT_VidActivity extends Activity {
             viewBicep.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Intent intent = new Intent(getApplicationContext(),MainActivity.class);
+                    Intent intent = new Intent(getApplicationContext(),VideoPrediction.class);
                     Bundle b = new Bundle();
                     b.putInt("key", 700); //Your id
                     intent.putExtras(b); //Put your id to your next Intent
@@ -62,7 +62,7 @@ public class GymExercises_YT_VidActivity extends Activity {
             viewTricep.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Intent intent = new Intent(getApplicationContext(),MainActivity.class);
+                    Intent intent = new Intent(getApplicationContext(),VideoPrediction.class);
                     Bundle b = new Bundle();
                     b.putInt("key", 800); //Your id
                     intent.putExtras(b); //Put your id to your next Intent
@@ -72,7 +72,7 @@ public class GymExercises_YT_VidActivity extends Activity {
             viewShoulder.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Intent intent = new Intent(getApplicationContext(),MainActivity.class);
+                    Intent intent = new Intent(getApplicationContext(),VideoPrediction.class);
                     Bundle b = new Bundle();
                     b.putInt("key", 400); //Your id
                     intent.putExtras(b); //Put your id to your next Intent
@@ -82,7 +82,7 @@ public class GymExercises_YT_VidActivity extends Activity {
             viewLegs.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Intent intent = new Intent(getApplicationContext(),MainActivity.class);
+                    Intent intent = new Intent(getApplicationContext(),VideoPrediction.class);
                     Bundle b = new Bundle();
                     b.putInt("key", 500); //Your id
                     intent.putExtras(b); //Put your id to your next Intent
@@ -92,7 +92,7 @@ public class GymExercises_YT_VidActivity extends Activity {
             viewChest.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Intent intent = new Intent(getApplicationContext(),MainActivity.class);
+                    Intent intent = new Intent(getApplicationContext(),VideoPrediction.class);
                     Bundle b = new Bundle();
                     b.putInt("key", 300); //Your id
                     intent.putExtras(b); //Put your id to your next Intent
@@ -102,7 +102,7 @@ public class GymExercises_YT_VidActivity extends Activity {
             viewCalve.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Intent intent = new Intent(getApplicationContext(),MainActivity.class);
+                    Intent intent = new Intent(getApplicationContext(),VideoPrediction.class);
                     Bundle b = new Bundle();
                     b.putInt("key", 600); //Your id
                     intent.putExtras(b); //Put your id to your next Intent
@@ -112,7 +112,7 @@ public class GymExercises_YT_VidActivity extends Activity {
             viewForearm.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Intent intent = new Intent(getApplicationContext(),MainActivity.class);
+                    Intent intent = new Intent(getApplicationContext(),VideoPrediction.class);
                     Bundle b = new Bundle();
                     b.putInt("key", 900); //Your id
                     intent.putExtras(b); //Put your id to your next Intent

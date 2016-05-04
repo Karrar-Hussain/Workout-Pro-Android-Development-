@@ -1,6 +1,7 @@
 package com.example.unique.myapplication.view;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.content.res.AssetManager;
 import android.database.Cursor;
 import android.os.Bundle;
@@ -38,7 +39,7 @@ public class WorkoutActivity extends Activity implements AdapterView.OnItemSelec
     ListView listView;
     List gifList,nameList,mainMuscleList,secMuscleList,precautionList,startPntList,motionList;
     WebView webView2;
-    Button btnUpdate;
+    Button btnYoutube;
     TextView viewExName,viewMainMuscle,viewSecMuscle,viewStartPnt,viewMotion,viewPrecaution;
     Exercises_Tbl db;
     @Override
@@ -52,14 +53,13 @@ public class WorkoutActivity extends Activity implements AdapterView.OnItemSelec
         viewStartPnt=(TextView)findViewById(R.id.viewStartPnt);
         viewMotion=(TextView)findViewById(R.id.viewMotion);
         viewPrecaution=(TextView)findViewById(R.id.viewPrecaution);
-/*        btnUpdate=(Button)findViewById(R.id.btnUpdate);
-        btnUpdate.setOnClickListener(new View.OnClickListener() {
+          btnYoutube=(Button)findViewById(R.id.btnYoutube);
+        btnYoutube.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                update();
+                startActivity(new Intent(getApplication(), GymExercises_YT_VidActivity.class));
             }
         });
-*/
         url="file:///android_asset/Gifs/200.gif";
         webView2.loadUrl(url);
         Spinner spinner = (Spinner) findViewById(R.id.ex_spinner);
@@ -118,6 +118,10 @@ public class WorkoutActivity extends Activity implements AdapterView.OnItemSelec
         // See https://g.co/AppIndexing/AndroidStudio for more information.
         client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
     }
+
+    public void onNothingSelected(AdapterView<?> arg0) {
+        // TODO Auto-generated method stub
+    }
     @Override
     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
         // On selecting a spinner item
@@ -168,16 +172,6 @@ public class WorkoutActivity extends Activity implements AdapterView.OnItemSelec
         // TODO Auto-generated method stub
         super.onPause();
         //finish();
-    }
-    public void onNothingSelected(AdapterView<?> arg0) {
-        // TODO Auto-generated method stub
-    }
-    public void update()
-    {
-        db.Delete();
-        if(db.Insert())
-            if(db.InsertDummy(getAllGifs()))
-            Toast.makeText(getBaseContext(),"Successfully Hell was updated! ====>>",Toast.LENGTH_LONG).show();
     }
 
 }

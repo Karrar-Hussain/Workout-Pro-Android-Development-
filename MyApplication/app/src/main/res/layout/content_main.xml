@@ -27,7 +27,8 @@ android:paddingLeft="3dp">
     android:id="@+id/txtHeightft"
     android:textSize="15sp"
     android:layout_above="@+id/textView3"
-    android:layout_alignLeft="@+id/txtweightkg" />
+    android:layout_alignLeft="@+id/txtweightkg"
+        android:text="0" />
 
 <TextView
     android:id="@+id/textView2"
@@ -63,7 +64,8 @@ android:paddingLeft="3dp">
     android:textSize="15sp"
     android:layout_alignBottom="@+id/textView3"
     android:layout_toRightOf="@+id/textView3"
-    android:layout_toEndOf="@+id/textView3" />
+    android:layout_toEndOf="@+id/textView3"
+    android:text="0" />
 
 <TextView
     android:id="@+id/viewBMI"
@@ -122,7 +124,8 @@ android:paddingLeft="3dp">
     android:textSize="15sp"
     android:layout_alignTop="@+id/txtHeightft"
     android:layout_toRightOf="@+id/textView4"
-    android:layout_toEndOf="@+id/textView4" />
+    android:layout_toEndOf="@+id/textView4"
+    android:text="0" />
 
 <TextView
     android:layout_width="wrap_content"
@@ -142,7 +145,8 @@ android:paddingLeft="3dp">
     android:textSize="15sp"
     android:layout_alignBottom="@+id/textView3"
     android:layout_toRightOf="@+id/textView4"
-    android:layout_toEndOf="@+id/textView4" />
+    android:layout_toEndOf="@+id/textView4"
+    android:text="0" />
 
 <TextView
     android:layout_width="wrap_content"

@@ -2,7 +2,9 @@ package com.example.unique.myapplication.view;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.text.Layout;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -21,6 +23,7 @@ public class GymExercisesActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
             setContentView(R.layout.activity_gymexercise);
+// setting the images on the ImageViews
             viewAbs=(Button) findViewById(R.id.viewAbs);
             viewBicep=(Button) findViewById(R.id.viewBicep);
             viewTricep=(Button) findViewById(R.id.viewTricep);

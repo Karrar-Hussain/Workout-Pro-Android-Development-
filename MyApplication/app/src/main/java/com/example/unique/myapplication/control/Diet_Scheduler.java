@@ -1,11 +1,6 @@
 package com.example.unique.myapplication.control;
 
-import android.content.Context;
-import android.database.Cursor;
-import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
-
-import com.example.unique.myapplication.model.Diet_Tbl;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,7 +13,7 @@ public class Diet_Scheduler {
     //Diet_Tbl diet_tbl;
     //Cursor cr;
 
-    public ArrayList<String> makeSchedule(List<String> food_list) {
+    public ArrayList<String> makeSchedule(List<String> food_list, double workout,int keyGoal) {
         List fruits, vegs, meets, drinks, fastfood;
         List foodname, foodtype, foodunit, foodcalory;
         foodname = new ArrayList();
@@ -75,7 +70,27 @@ public class Diet_Scheduler {
             percentageScale += 15;
             countNoFood--;
         }
-        int NeededCalories = 2381;
+        int bmr=1551 ;//Value comes from profile table workout database.
+        int goalCalory=0;
+        switch (keyGoal)
+        {
+            case 0:
+                goalCalory=0;
+            break;
+            case 1:
+                goalCalory=-500;
+                break;
+            case 2:
+                goalCalory=-1000;
+                break;
+            case 3:
+                goalCalory=500;
+                break;
+            case 4:
+                goalCalory=1000;
+                break;
+        }
+        int NeededCalories = (int) (bmr * workout)+goalCalory;
         List<Double> CalFoodLists = new ArrayList<Double>();
         int divFruit = 1;
         double percentFruit = 0;

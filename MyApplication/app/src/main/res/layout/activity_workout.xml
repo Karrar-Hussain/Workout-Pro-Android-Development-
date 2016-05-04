@@ -3,7 +3,7 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/ScrollView01"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     android:fillViewport="true"
     android:scrollbars="none"
     android:background="@color/colorFifth">
@@ -12,17 +12,16 @@
         android:layout_height="match_parent">
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:weightSum="1"
     >
 
     <Spinner
         android:id="@+id/ex_spinner"
-        android:layout_width="400dp"
-        android:layout_height="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:spinnerMode="dropdown"
         android:layout_marginRight="40dp"
-        android:background="@color/heading"
         android:textStyle="italic"
         android:layout_alignParentTop="true" />
 
@@ -41,7 +40,7 @@
         android:text="Muscles Targeted"
         android:id="@+id/viewMuscleTargeted"
         android:layout_below="@+id/viewExName"
-        android:textColor="@color/heading"
+        android:textColor="@color/colorPrimary"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
     <TextView
@@ -51,7 +50,7 @@
         android:text="Tips And Instructions:"
         android:id="@+id/viewD"
         android:layout_marginTop="60dp"
-        android:textColor="@color/heading"
+        android:textColor="@color/colorPrimary"
         android:layout_below="@+id/viewMuscleTargeted"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
@@ -141,16 +140,26 @@
         android:layout_alignParentStart="true"
         android:layout_marginTop="10dp" />
 
-<!--    <Button
-        style="?android:attr/buttonStyleSmall"
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Update"
-        android:id="@+id/btnUpdate"
-        android:layout_alignRight="@id/ex_spinner"
-        android:layout_below="@+id/viewPrecaution"
-        android:layout_marginTop="46dp" />
--->
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="All the workout animations are taken from www.fitnessbliss.com."
+        android:id="@+id/textView17"
+        android:layout_below="@+id/btnYoutube"
+        android:layout_alignRight="@+id/viewPrecaution"
+        android:layout_alignEnd="@+id/viewPrecaution"
+        android:layout_alignLeft="@+id/btnYoutube"
+        android:layout_alignStart="@+id/btnYoutube" />
+   <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Watch Online Video->"
+            android:id="@+id/btnYoutube"
+       android:layout_below="@+id/viewPrecaution"
+       android:layout_alignLeft="@+id/viewPrecaution"
+       android:layout_alignStart="@+id/viewPrecaution" />
 </RelativeLayout>
         </LinearLayout>
     </ScrollView>

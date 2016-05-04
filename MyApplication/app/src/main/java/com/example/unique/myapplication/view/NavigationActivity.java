@@ -6,21 +6,13 @@ import android.app.ActionBar;
 import android.app.Fragment;
 import android.app.FragmentManager;
 import android.content.Intent;
-import android.content.res.AssetManager;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.support.v4.widget.DrawerLayout;
-import android.widget.Toast;
 
 import com.example.unique.myapplication.R;
-import com.example.unique.myapplication.model.Diet_Tbl;
-import com.example.unique.myapplication.model.Exercises_Tbl;
-
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
 
 public class NavigationActivity extends Activity
         implements NavigationDrawerFragment.NavigationDrawerCallbacks {

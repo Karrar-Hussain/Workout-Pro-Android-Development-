@@ -6,14 +6,19 @@
     android:layout_height="match_parent"
     android:fillViewport="true"
     android:scrollbars="none"
-    android:background="@drawable/gymworkout_background"
     >
 
-    <LinearLayout android:layout_width="match_parent"
-        android:layout_height="match_parent">
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#22FFFFFF"
+        >
+
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent"
-    >
+            android:background="@color/colorTertiary"
+            >
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -28,30 +33,29 @@
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:id="@+id/btnGWorkout"
-        android:background="@drawable/btnworkout"
-        android:layout_alignTop="@+id/btnHealthTip"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/gym"
+        android:layout_above="@+id/btnGDiet"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginRight="20dp"/>
+        android:layout_alignParentEnd="true" />
 
 
     <ImageButton
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:id="@+id/btnHealthTip"
-        android:background="@drawable/btnhealthtip"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="41dp"
+        android:background="@drawable/tips"
+        android:layout_marginLeft="10dp"
+        android:focusableInTouchMode="true"
         android:layout_below="@+id/btnLogin"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginLeft="20dp"
-        android:layout_marginStart="20dp"
-        android:focusableInTouchMode="true" />
+        android:layout_alignParentStart="true" />
     <ImageButton
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:id="@+id/btnGDiet"
-        android:background="@drawable/btndiet"
+        android:background="@drawable/diet"
         android:layout_marginTop="42dp"
         android:focusableInTouchMode="true"
         android:layout_below="@+id/btnHealthTip"
@@ -62,12 +66,13 @@
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:id="@+id/btnCalculator"
-        android:background="@drawable/btncalculator"
+        android:background="@drawable/bmi"
         android:focusableInTouchMode="true"
         android:layout_alignTop="@+id/btnGDiet"
         android:layout_alignLeft="@+id/btnGWorkout"
         android:layout_alignStart="@+id/btnGWorkout" />
 
+
 </RelativeLayout>
-        </LinearLayout>
+        </RelativeLayout>
     </ScrollView>

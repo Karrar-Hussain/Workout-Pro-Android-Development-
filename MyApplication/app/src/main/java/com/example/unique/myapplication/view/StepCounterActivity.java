@@ -29,7 +29,7 @@ public class StepCounterActivity extends Activity implements SensorEventListener
     protected void onResume() {
         super.onResume();
         activityRunning=true;
-        Sensor countSensor=sensorManager.getDefaultSensor(Sensor.TYPE_STEP_COUNTER);
+        Sensor countSensor=sensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
         if(countSensor !=null) {
             sensorManager.registerListener(this, countSensor, SensorManager.SENSOR_DELAY_UI);
         }else{

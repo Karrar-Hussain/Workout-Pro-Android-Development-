@@ -18,35 +18,37 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/icon"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        android:name="android.support.multidex.MultiDexApplication">
 
         <activity
             android:name=".view.Splash"
-            android:label="Workout-V1.0">
+            android:label="Workout Pro Splash">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".view.GymExercisesActivity">
+        <activity android:name=".view.GymExercisesActivity" android:label="Workout Body Parts">
             <intent-filter>
                 <action android:name="com.example.unique.myapplication.ANIMATIONACTIVITY" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".view.IdealWeightActivity">
+        <activity android:name=".view.IdealWeightActivity" android:label="Basal Metabolic Ratio(MBR)">
             <intent-filter>
                 <action android:name="com.example.unique.myapplication.IDEALWEIGHTACTIVITY" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".view.BMIActivity">
+        <activity android:name=".view.BMIActivity" android:label="Body Mass Index Calculator">
             <intent-filter>
                 <action android:name="com.example.unique.myapplication.LOGINACTIVITY" />
 
@@ -54,7 +56,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".view.MainActivity"
+        <activity android:name=".view.VideoPrediction" android:label="Workout Youtube Videos"
             android:theme="@style/AppTheme1">
         </activity>
         <activity android:name=".view.YoutubePlayer"
@@ -62,7 +64,7 @@
 
         <activity
             android:name=".view.WorkoutActivity"
-            android:label="Animation Workout">
+            android:label="Workout Anime and Tips">
             <intent-filter>
                 <action android:name="com.example.unique.myapplication.WORKOUTACTIVITY" />
 
@@ -78,10 +80,10 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".view.GymExercises_YT_VidActivity"></activity>
-        <activity android:name=".view.MainBackground"></activity>
-        <activity android:name=".view.DietActivity"></activity>
-        <activity android:name=".view.DietSchedulerActivity"></activity>
+        <activity android:name=".view.GymExercises_YT_VidActivity" android:label="Workout Body Parts"></activity>
+        <activity android:name=".view.MainBackground" android:label="Workout Body Parts"></activity>
+        <activity android:name=".view.DietActivity" android:label="Diet Scheduler"></activity>
+        <activity android:name=".view.DietSchedulerActivity" android:label="Diet Scheduler"></activity>
         <!--
              ATTENTION: This was auto-generated to add Google Play services to your project for
              App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
@@ -108,9 +110,62 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".view.StepCounterActivity" />
-        <activity android:name=".view.MusicPlayerActivity" />
+        <activity android:name=".view.StepCounterActivity" android:label="Step Counter" />
+        <activity android:name=".view.MusicPlayerActivity" android:label="Music Player" />
         <activity android:name=".view.Main"></activity>
+        <activity
+            android:name=".view.MainActivity"
+            android:label="WorkOut Pro"
+            android:theme="@style/AppTheme2">
+        </activity>
+        <activity
+            android:name=".view.LoginActivity"
+            android:label="WorkOut Pro " >
+            <intent-filter>
+                <action android:name="comsats.community.fyp.LOGINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.SignupActivity"
+            android:label="Create New Account" >
+            <intent-filter>
+                <action android:name="comsats.community.fyp.SIGNUPACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.MainPage"
+            android:label="Welcome to WorkOut Pro" android:theme="@style/AppTheme2">
+            <intent-filter>
+                <action android:name="fast.community.se.MainPage" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.UpdateProfile"
+            android:label="Update Profile" >
+        </activity>
+        <activity
+            android:name=".view.Profile"
+            android:label="Profile" >
+        </activity>
+        <activity
+            android:name=".view.WorkOut_Schedule">
+            <intent-filter>
+                <action android:name="fast.community.se.WorkOut_Schedule" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.Change_Password"
+            android:label="Change Password" >
+        </activity>
+
     </application>
 
 </manifest>
